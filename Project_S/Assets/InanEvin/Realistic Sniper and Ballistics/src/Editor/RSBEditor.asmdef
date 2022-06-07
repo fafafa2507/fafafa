@@ -1,0 +1,10 @@
+{
+    "name": "RSBEditor",
+    "references": [
+        "RSBRuntime"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": []
+}
