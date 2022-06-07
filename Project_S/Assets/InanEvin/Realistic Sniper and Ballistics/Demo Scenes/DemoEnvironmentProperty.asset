@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fda1e05b20502ea4f819030884fb988f, type: 3}
+  m_Name: DemoEnvironmentProperty
+  m_EditorClassIdentifier: 
+  m_measurementUnit: 1
+  m_previousMeasurementUnit: 1
+  m_gravity: -9.81
+  m_airPressure: 101.325
+  m_temperature: 25
+  m_windSpeed: {x: 35, y: 0, z: 0}
+  m_gravityInMetric: -9.81
+  m_airPressureInMetric: 101.325
+  m_temperatureInMetric: 25
+  m_windSpeedInMetric: {x: 35, y: 0, z: 0}

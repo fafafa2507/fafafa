@@ -1,0 +1,3720 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1914278749483716}
+  m_IsPrefabParent: 1
+--- !u!1 &1914278749483716
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4678164210349884}
+  - component: {fileID: 20132841500373136}
+  - component: {fileID: 114556756298460916}
+  - component: {fileID: 82560644760880276}
+  m_Layer: 0
+  m_Name: Bullet Time - Camera Default Presets
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4678164210349884
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1914278749483716}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.0073461756, y: 3.299, z: -0.0030983943}
+  m_LocalScale: {x: 2, y: 2, z: 2}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!20 &20132841500373136
+Camera:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1914278749483716}
+  m_Enabled: 0
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.01
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 10
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!82 &82560644760880276
+AudioSource:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1914278749483716}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - serializedVersion: 2
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 2
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
+--- !u!114 &114556756298460916
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1914278749483716}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc04eded0592d4145b34047310311721, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_randomizeEffects: 1
+  m_selectedEffect: 0
+  m_cameraEffects:
+  - m_name: Side To Target
+    m_enabled: 1
+    m_startPathPercentage: 0.041
+    m_timeToResetTimescale: 1
+    m_timeToEndAfterReset: 1
+    m_stages:
+    - m_name: Watch Bullet From Side
+      m_enabled: 1
+      m_playAudio: 1
+      m_inClip: {fileID: 8300000, guid: 8f1ce388ba110e840b2eb4ab47255673, type: 3}
+      m_outClip: {fileID: 0}
+      m_triggerNextMethod: 0
+      m_triggerNextDuration: 3.5
+      m_triggerNextDistance: 5
+      m_triggerNextBulletPathPercent: 0.162
+      m_timescaleConnectedToHitDistance: 0
+      m_startTimescale: 0.01
+      m_endTimescale: 0.001
+      m_interpolateTimescale: 1
+      m_timescaleDuration: 2
+      m_timescaleCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_continueFromPrevious: 0
+      m_positionType: 0
+      m_pathPercent: 0.483
+      m_startPosition: {x: -0.1, y: 0, z: 0}
+      m_endPosition: {x: 0.2, y: 0, z: 0}
+      m_randomizeStartPosition: 1
+      m_randomizeStartDirectionX: 0
+      m_randomizeStartDirectionY: 0
+      m_randomizeStartDirectionZ: 0
+      m_minStartPosition: {x: 0.1, y: 0.1, z: 0.1}
+      m_maxStartPosition: {x: 0.3, y: 0.2, z: 0.3}
+      m_randomizeEndPosition: 0
+      m_randomizeEndDirectionX: 0
+      m_randomizeEndDirectionY: 0
+      m_randomizeEndDirectionZ: 0
+      m_minEndPosition: {x: -0.3, y: 0.1, z: -0.1}
+      m_maxEndPosition: {x: 0.3, y: 0.2, z: -0.3}
+      m_interpolatePosition: 1
+      m_positionCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 3.2336438
+          outSlope: 3.2336438
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 0.29202503
+          value: 0.9443049
+          inSlope: 0.18418483
+          outSlope: 0.18418483
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 0.0786682
+          outSlope: 0.0786682
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_positionDuration: 4
+      m_lookAtBullet: 1
+      m_startLookSpeed: 10
+      m_endLookSpeed: 3
+      m_lookSpeedDuration: 2
+      m_interpolateLookSpeed: 0
+      m_lookSpeedCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_lookAtOffset: {x: 0, y: 0, z: 0}
+      m_interpolateZTilt: 0
+      m_startZTilt: 15
+      m_zTiltSpeed: 5
+      m_endZTilt: 0
+      m_zTiltDuration: 3
+      m_zTiltCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_shakeEnabled: 1
+      m_shakeAmount: {x: 0.5, y: 1, z: 1.5}
+      m_shakeSpeed: {x: 80, y: 40, z: 40}
+      m_shakeDuration: 1.5
+      m_foldout: 0
+    - m_name: Watch Bullet Speed Up
+      m_enabled: 1
+      m_playAudio: 1
+      m_inClip: {fileID: 0}
+      m_outClip: {fileID: 8300000, guid: 96995d21020612e4497578ce2db4f7d6, type: 3}
+      m_triggerNextMethod: 4
+      m_triggerNextDuration: 0
+      m_triggerNextDistance: 5
+      m_triggerNextBulletPathPercent: 0
+      m_timescaleConnectedToHitDistance: 1
+      m_startTimescale: 0.1
+      m_endTimescale: 0
+      m_interpolateTimescale: 0
+      m_timescaleDuration: 0
+      m_timescaleCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_continueFromPrevious: 1
+      m_positionType: 0
+      m_pathPercent: 0.5
+      m_startPosition: {x: 0.2, y: 0, z: 0}
+      m_endPosition: {x: 0, y: 0.02, z: -0.2}
+      m_randomizeStartPosition: 0
+      m_randomizeStartDirectionX: 0
+      m_randomizeStartDirectionY: 0
+      m_randomizeStartDirectionZ: 0
+      m_minStartPosition: {x: 0, y: 0, z: 0}
+      m_maxStartPosition: {x: 0, y: 0, z: 0}
+      m_randomizeEndPosition: 1
+      m_randomizeEndDirectionX: 0
+      m_randomizeEndDirectionY: 0
+      m_randomizeEndDirectionZ: 0
+      m_minEndPosition: {x: 0, y: 0.1, z: -0.2}
+      m_maxEndPosition: {x: 0, y: 0.1, z: -0.5}
+      m_interpolatePosition: 1
+      m_positionCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_positionDuration: 1
+      m_lookAtBullet: 1
+      m_startLookSpeed: 1
+      m_endLookSpeed: 5
+      m_lookSpeedDuration: 3
+      m_interpolateLookSpeed: 1
+      m_lookSpeedCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_lookAtOffset: {x: 0, y: 0, z: 0}
+      m_interpolateZTilt: 0
+      m_startZTilt: 0
+      m_zTiltSpeed: 12
+      m_endZTilt: 0
+      m_zTiltDuration: 0
+      m_zTiltCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_shakeEnabled: 1
+      m_shakeAmount: {x: 0.6, y: 1.2, z: 1.2}
+      m_shakeSpeed: {x: 80, y: 40, z: 40}
+      m_shakeDuration: 10
+      m_foldout: 0
+    - m_name: Watch Target
+      m_enabled: 1
+      m_playAudio: 0
+      m_inClip: {fileID: 8300000, guid: c346a7195a96cb3438a74ca3e2755de5, type: 3}
+      m_outClip: {fileID: 0}
+      m_triggerNextMethod: 0
+      m_triggerNextDuration: 2
+      m_triggerNextDistance: 0
+      m_triggerNextBulletPathPercent: 0
+      m_timescaleConnectedToHitDistance: 0
+      m_startTimescale: 0.8
+      m_endTimescale: 0.5
+      m_interpolateTimescale: 0
+      m_timescaleDuration: 5
+      m_timescaleCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 0.43094975
+          outSlope: 0.43094975
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 0.9129191
+          value: 0.39342225
+          inSlope: 0.53202325
+          outSlope: 0.53202325
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 6.965681
+          outSlope: 6.965681
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_continueFromPrevious: 1
+      m_positionType: 2
+      m_pathPercent: 1
+      m_startPosition: {x: 0, y: 0.02, z: -0.2}
+      m_endPosition: {x: 0, y: 2, z: -5}
+      m_randomizeStartPosition: 0
+      m_randomizeStartDirectionX: 0
+      m_randomizeStartDirectionY: 0
+      m_randomizeStartDirectionZ: 0
+      m_minStartPosition: {x: 0, y: 0, z: 0}
+      m_maxStartPosition: {x: 0, y: 0, z: 0}
+      m_randomizeEndPosition: 0
+      m_randomizeEndDirectionX: 0
+      m_randomizeEndDirectionY: 0
+      m_randomizeEndDirectionZ: 0
+      m_minEndPosition: {x: 1, y: 0, z: -5}
+      m_maxEndPosition: {x: 2, y: 0, z: -4}
+      m_interpolatePosition: 1
+      m_positionCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_positionDuration: 3
+      m_lookAtBullet: 0
+      m_startLookSpeed: 10
+      m_endLookSpeed: 0
+      m_lookSpeedDuration: 0
+      m_interpolateLookSpeed: 0
+      m_lookSpeedCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_lookAtOffset: {x: 0, y: 0, z: 0}
+      m_interpolateZTilt: 0
+      m_startZTilt: 0
+      m_zTiltSpeed: 0
+      m_endZTilt: 0
+      m_zTiltDuration: 0
+      m_zTiltCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_shakeEnabled: 1
+      m_shakeAmount: {x: 0.4, y: 0.8, z: 4}
+      m_shakeSpeed: {x: 120, y: 240, z: 120}
+      m_shakeDuration: 0.5
+      m_foldout: 0
+    m_foldout: 0
+    m_previousName: Side To Target
+  - m_name: Target Watcher
+    m_enabled: 1
+    m_startPathPercentage: 0.85
+    m_timeToResetTimescale: 1
+    m_timeToEndAfterReset: 1
+    m_stages:
+    - m_name: Around the Target
+      m_enabled: 1
+      m_playAudio: 1
+      m_inClip: {fileID: 0}
+      m_outClip: {fileID: 8300000, guid: 96995d21020612e4497578ce2db4f7d6, type: 3}
+      m_triggerNextMethod: 6
+      m_triggerNextDuration: 0
+      m_triggerNextDistance: 0
+      m_triggerNextBulletPathPercent: 1
+      m_timescaleConnectedToHitDistance: 1
+      m_startTimescale: 0.051
+      m_endTimescale: 0
+      m_interpolateTimescale: 0
+      m_timescaleDuration: 0
+      m_timescaleCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_continueFromPrevious: 0
+      m_positionType: 2
+      m_pathPercent: 1
+      m_startPosition: {x: 0, y: 0, z: 0}
+      m_endPosition: {x: 0, y: 0, z: 0}
+      m_randomizeStartPosition: 1
+      m_randomizeStartDirectionX: 1
+      m_randomizeStartDirectionY: 1
+      m_randomizeStartDirectionZ: 0
+      m_minStartPosition: {x: 0.5, y: 0, z: -1}
+      m_maxStartPosition: {x: 1.5, y: 1, z: -3}
+      m_randomizeEndPosition: 1
+      m_randomizeEndDirectionX: 1
+      m_randomizeEndDirectionY: 1
+      m_randomizeEndDirectionZ: 0
+      m_minEndPosition: {x: 0.5, y: 0.2, z: -2}
+      m_maxEndPosition: {x: 1.5, y: 1.5, z: -4}
+      m_interpolatePosition: 1
+      m_positionCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_positionDuration: 2
+      m_lookAtBullet: 0
+      m_startLookSpeed: 10
+      m_endLookSpeed: 0
+      m_lookSpeedDuration: 0
+      m_interpolateLookSpeed: 0
+      m_lookSpeedCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_lookAtOffset: {x: 0, y: 0, z: 0}
+      m_interpolateZTilt: 0
+      m_startZTilt: 0
+      m_zTiltSpeed: 0
+      m_endZTilt: 0
+      m_zTiltDuration: 0
+      m_zTiltCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_shakeEnabled: 0
+      m_shakeAmount: {x: 0, y: 0, z: 0}
+      m_shakeSpeed: {x: 0, y: 0, z: 0}
+      m_shakeDuration: 1
+      m_foldout: 0
+    m_foldout: 0
+    m_previousName: Target Watcher
+  - m_name: Target Watcher Bullet Focus
+    m_enabled: 1
+    m_startPathPercentage: 0.449
+    m_timeToResetTimescale: 1
+    m_timeToEndAfterReset: 1
+    m_stages:
+    - m_name: Around the Target
+      m_enabled: 1
+      m_playAudio: 0
+      m_inClip: {fileID: 0}
+      m_outClip: {fileID: 0}
+      m_triggerNextMethod: 5
+      m_triggerNextDuration: 0
+      m_triggerNextDistance: 5
+      m_triggerNextBulletPathPercent: 0.932
+      m_timescaleConnectedToHitDistance: 1
+      m_startTimescale: 0.08
+      m_endTimescale: 0
+      m_interpolateTimescale: 0
+      m_timescaleDuration: 0
+      m_timescaleCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_continueFromPrevious: 0
+      m_positionType: 2
+      m_pathPercent: 1
+      m_startPosition: {x: 0, y: 0, z: 0}
+      m_endPosition: {x: 0, y: 0, z: 0}
+      m_randomizeStartPosition: 1
+      m_randomizeStartDirectionX: 1
+      m_randomizeStartDirectionY: 0
+      m_randomizeStartDirectionZ: 0
+      m_minStartPosition: {x: 2, y: 0.2, z: -0.5}
+      m_maxStartPosition: {x: 3, y: 0.2, z: -1}
+      m_randomizeEndPosition: 0
+      m_randomizeEndDirectionX: 0
+      m_randomizeEndDirectionY: 0
+      m_randomizeEndDirectionZ: 0
+      m_minEndPosition: {x: 0, y: 0, z: 0}
+      m_maxEndPosition: {x: 0, y: 0, z: 0}
+      m_interpolatePosition: 0
+      m_positionCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_positionDuration: 0
+      m_lookAtBullet: 0
+      m_startLookSpeed: 10
+      m_endLookSpeed: 0
+      m_lookSpeedDuration: 0
+      m_interpolateLookSpeed: 0
+      m_lookSpeedCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_lookAtOffset: {x: 0, y: 0, z: 0}
+      m_interpolateZTilt: 0
+      m_startZTilt: 0
+      m_zTiltSpeed: 0
+      m_endZTilt: 0
+      m_zTiltDuration: 0
+      m_zTiltCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_shakeEnabled: 0
+      m_shakeAmount: {x: 0, y: 0, z: 0}
+      m_shakeSpeed: {x: 0, y: 0, z: 0}
+      m_shakeDuration: 1
+      m_foldout: 0
+    - m_name: Focus To Bullet
+      m_enabled: 1
+      m_playAudio: 1
+      m_inClip: {fileID: 8300000, guid: 0cb3ba1e84c41d74fa4557ed62727f9e, type: 3}
+      m_outClip: {fileID: 0}
+      m_triggerNextMethod: 0
+      m_triggerNextDuration: 3
+      m_triggerNextDistance: 0
+      m_triggerNextBulletPathPercent: 0
+      m_timescaleConnectedToHitDistance: 0
+      m_startTimescale: 0.008
+      m_endTimescale: 0.001
+      m_interpolateTimescale: 1
+      m_timescaleDuration: 1
+      m_timescaleCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_continueFromPrevious: 1
+      m_positionType: 0
+      m_pathPercent: 0.5
+      m_startPosition: {x: 0, y: 0, z: 0}
+      m_endPosition: {x: 0.1, y: 0.02, z: -0.1}
+      m_randomizeStartPosition: 0
+      m_randomizeStartDirectionX: 0
+      m_randomizeStartDirectionY: 0
+      m_randomizeStartDirectionZ: 0
+      m_minStartPosition: {x: 0, y: 0, z: 0}
+      m_maxStartPosition: {x: 0, y: 0, z: 0}
+      m_randomizeEndPosition: 0
+      m_randomizeEndDirectionX: 0
+      m_randomizeEndDirectionY: 0
+      m_randomizeEndDirectionZ: 0
+      m_minEndPosition: {x: 0, y: 0, z: 0}
+      m_maxEndPosition: {x: 0, y: 0, z: 0}
+      m_interpolatePosition: 1
+      m_positionCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 2.7385805
+          outSlope: 2.7385805
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 0.35166585
+          value: 0.96306527
+          inSlope: 0.10750121
+          outSlope: 0.10750121
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 0.05696867
+          outSlope: 0.05696867
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_positionDuration: 4
+      m_lookAtBullet: 1
+      m_startLookSpeed: 10
+      m_endLookSpeed: 5
+      m_lookSpeedDuration: 1
+      m_interpolateLookSpeed: 1
+      m_lookSpeedCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_lookAtOffset: {x: 0, y: 0, z: 0}
+      m_interpolateZTilt: 0
+      m_startZTilt: 15
+      m_zTiltSpeed: 5
+      m_endZTilt: 0
+      m_zTiltDuration: 0
+      m_zTiltCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_shakeEnabled: 1
+      m_shakeAmount: {x: 1, y: 2, z: 2}
+      m_shakeSpeed: {x: 40, y: 80, z: 80}
+      m_shakeDuration: 3
+      m_foldout: 0
+    - m_name: Back To Around The Target
+      m_enabled: 1
+      m_playAudio: 1
+      m_inClip: {fileID: 0}
+      m_outClip: {fileID: 8300000, guid: 96995d21020612e4497578ce2db4f7d6, type: 3}
+      m_triggerNextMethod: 0
+      m_triggerNextDuration: 3
+      m_triggerNextDistance: 0
+      m_triggerNextBulletPathPercent: 0
+      m_timescaleConnectedToHitDistance: 1
+      m_startTimescale: 0.001
+      m_endTimescale: 0.05
+      m_interpolateTimescale: 1
+      m_timescaleDuration: 0.3
+      m_timescaleCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 0.56079686
+          outSlope: 0.56079686
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 0.9511384
+          value: 0.5333954
+          inSlope: 1.7617886
+          outSlope: 1.7617886
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 9.549511
+          outSlope: 9.549511
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_continueFromPrevious: 1
+      m_positionType: 1
+      m_pathPercent: 0.5
+      m_startPosition: {x: 0.1, y: 0.02, z: -0.1}
+      m_endPosition: {x: 0, y: 0, z: 0}
+      m_randomizeStartPosition: 0
+      m_randomizeStartDirectionX: 0
+      m_randomizeStartDirectionY: 0
+      m_randomizeStartDirectionZ: 0
+      m_minStartPosition: {x: 0, y: 0, z: 0}
+      m_maxStartPosition: {x: 0, y: 0, z: 0}
+      m_randomizeEndPosition: 1
+      m_randomizeEndDirectionX: 0
+      m_randomizeEndDirectionY: 0
+      m_randomizeEndDirectionZ: 0
+      m_minEndPosition: {x: 0, y: 0, z: -3}
+      m_maxEndPosition: {x: 0, y: 0, z: -5}
+      m_interpolatePosition: 1
+      m_positionCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_positionDuration: 1
+      m_lookAtBullet: 0
+      m_startLookSpeed: 10
+      m_endLookSpeed: 0
+      m_lookSpeedDuration: 0
+      m_interpolateLookSpeed: 0
+      m_lookSpeedCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_lookAtOffset: {x: 0, y: 0, z: 0}
+      m_interpolateZTilt: 0
+      m_startZTilt: 0
+      m_zTiltSpeed: 0
+      m_endZTilt: 0
+      m_zTiltDuration: 0
+      m_zTiltCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_shakeEnabled: 0
+      m_shakeAmount: {x: 0, y: 0, z: 0}
+      m_shakeSpeed: {x: 0, y: 0, z: 0}
+      m_shakeDuration: 1
+      m_foldout: 0
+    m_foldout: 0
+    m_previousName: Target Watcher Bullet Focus
+  - m_name: Watch Bullet In Middle
+    m_enabled: 1
+    m_startPathPercentage: 0
+    m_timeToResetTimescale: 1
+    m_timeToEndAfterReset: 1
+    m_stages:
+    - m_name: Watch Bullet Out of Barrel
+      m_enabled: 1
+      m_playAudio: 0
+      m_inClip: {fileID: 0}
+      m_outClip: {fileID: 0}
+      m_triggerNextMethod: 0
+      m_triggerNextDuration: 3
+      m_triggerNextDistance: 0
+      m_triggerNextBulletPathPercent: 0
+      m_timescaleConnectedToHitDistance: 0
+      m_startTimescale: 0.001
+      m_endTimescale: 0.001
+      m_interpolateTimescale: 1
+      m_timescaleDuration: 0.5
+      m_timescaleCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_continueFromPrevious: 0
+      m_positionType: 0
+      m_pathPercent: 0.5
+      m_startPosition: {x: 0, y: 0, z: 0}
+      m_endPosition: {x: 0, y: 0, z: 0}
+      m_randomizeStartPosition: 1
+      m_randomizeStartDirectionX: 0
+      m_randomizeStartDirectionY: 0
+      m_randomizeStartDirectionZ: 0
+      m_minStartPosition: {x: 0.3, y: 0.1, z: 0.1}
+      m_maxStartPosition: {x: 0.8, y: 0.7, z: 0.7}
+      m_randomizeEndPosition: 1
+      m_randomizeEndDirectionX: 0
+      m_randomizeEndDirectionY: 0
+      m_randomizeEndDirectionZ: 0
+      m_minEndPosition: {x: -0.7, y: -0.7, z: -0.7}
+      m_maxEndPosition: {x: 0.7, y: 0.73, z: 0.7}
+      m_interpolatePosition: 1
+      m_positionCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 1.4231118
+          outSlope: 1.4231118
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 0.6873094
+          value: 0.97811806
+          inSlope: 0.110904
+          outSlope: 0.110904
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 0.06997952
+          outSlope: 0.06997952
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_positionDuration: 5
+      m_lookAtBullet: 1
+      m_startLookSpeed: 10
+      m_endLookSpeed: 0
+      m_lookSpeedDuration: 0
+      m_interpolateLookSpeed: 0
+      m_lookSpeedCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_lookAtOffset: {x: 0, y: 0, z: 0}
+      m_interpolateZTilt: 0
+      m_startZTilt: 0
+      m_zTiltSpeed: 0
+      m_endZTilt: 0
+      m_zTiltDuration: 0
+      m_zTiltCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_shakeEnabled: 1
+      m_shakeAmount: {x: 0.6, y: 1.2, z: 1.2}
+      m_shakeSpeed: {x: 30, y: 60, z: 60}
+      m_shakeDuration: 2
+      m_foldout: 0
+    - m_name: Middle Wait For Bullet
+      m_enabled: 1
+      m_playAudio: 0
+      m_inClip: {fileID: 0}
+      m_outClip: {fileID: 0}
+      m_triggerNextMethod: 3
+      m_triggerNextDuration: 0
+      m_triggerNextDistance: 1
+      m_triggerNextBulletPathPercent: 0.6
+      m_timescaleConnectedToHitDistance: 1
+      m_startTimescale: 0.3
+      m_endTimescale: 0
+      m_interpolateTimescale: 0
+      m_timescaleDuration: 0
+      m_timescaleCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_continueFromPrevious: 0
+      m_positionType: 2
+      m_pathPercent: 0.5
+      m_startPosition: {x: 0.05, y: 0, z: 0}
+      m_endPosition: {x: 0, y: 0, z: 0}
+      m_randomizeStartPosition: 0
+      m_randomizeStartDirectionX: 0
+      m_randomizeStartDirectionY: 0
+      m_randomizeStartDirectionZ: 0
+      m_minStartPosition: {x: 0, y: 0, z: 0}
+      m_maxStartPosition: {x: 0, y: 0, z: 0}
+      m_randomizeEndPosition: 0
+      m_randomizeEndDirectionX: 0
+      m_randomizeEndDirectionY: 0
+      m_randomizeEndDirectionZ: 0
+      m_minEndPosition: {x: 0, y: 0, z: 0}
+      m_maxEndPosition: {x: 0, y: 0, z: 0}
+      m_interpolatePosition: 0
+      m_positionCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_positionDuration: 0
+      m_lookAtBullet: 1
+      m_startLookSpeed: 10
+      m_endLookSpeed: 0
+      m_lookSpeedDuration: 0
+      m_interpolateLookSpeed: 0
+      m_lookSpeedCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_lookAtOffset: {x: 0, y: 0, z: 0}
+      m_interpolateZTilt: 0
+      m_startZTilt: 0
+      m_zTiltSpeed: 0
+      m_endZTilt: 0
+      m_zTiltDuration: 0
+      m_zTiltCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_shakeEnabled: 0
+      m_shakeAmount: {x: 0, y: 0, z: 0}
+      m_shakeSpeed: {x: 0, y: 0, z: 0}
+      m_shakeDuration: 1
+      m_foldout: 0
+    - m_name: Middle Look At Bullet Slowed
+      m_enabled: 1
+      m_playAudio: 1
+      m_inClip: {fileID: 8300000, guid: 0cb3ba1e84c41d74fa4557ed62727f9e, type: 3}
+      m_outClip: {fileID: 0}
+      m_triggerNextMethod: 0
+      m_triggerNextDuration: 4.67
+      m_triggerNextDistance: 0
+      m_triggerNextBulletPathPercent: 0
+      m_timescaleConnectedToHitDistance: 0
+      m_startTimescale: 0.005
+      m_endTimescale: 0.0005
+      m_interpolateTimescale: 1
+      m_timescaleDuration: 0.1
+      m_timescaleCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 0.45674208
+          outSlope: 0.45674208
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 0.92934525
+          value: 0.42447108
+          inSlope: 1.5307212
+          outSlope: 1.5307212
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 8.145651
+          outSlope: 8.145651
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_continueFromPrevious: 1
+      m_positionType: 2
+      m_pathPercent: 0.5
+      m_startPosition: {x: 0, y: 0, z: 0}
+      m_endPosition: {x: 0, y: 0, z: 0}
+      m_randomizeStartPosition: 0
+      m_randomizeStartDirectionX: 0
+      m_randomizeStartDirectionY: 0
+      m_randomizeStartDirectionZ: 0
+      m_minStartPosition: {x: 0, y: 0, z: 0}
+      m_maxStartPosition: {x: 0, y: 0, z: 0}
+      m_randomizeEndPosition: 0
+      m_randomizeEndDirectionX: 0
+      m_randomizeEndDirectionY: 0
+      m_randomizeEndDirectionZ: 0
+      m_minEndPosition: {x: 0, y: 0, z: 0}
+      m_maxEndPosition: {x: 0, y: 0, z: 0}
+      m_interpolatePosition: 0
+      m_positionCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_positionDuration: 0
+      m_lookAtBullet: 1
+      m_startLookSpeed: 10
+      m_endLookSpeed: 0
+      m_lookSpeedDuration: 0
+      m_interpolateLookSpeed: 0
+      m_lookSpeedCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_lookAtOffset: {x: 0, y: 0, z: 0}
+      m_interpolateZTilt: 0
+      m_startZTilt: 0
+      m_zTiltSpeed: 0
+      m_endZTilt: 0
+      m_zTiltDuration: 0
+      m_zTiltCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_shakeEnabled: 0
+      m_shakeAmount: {x: 0, y: 0, z: 0}
+      m_shakeSpeed: {x: 0, y: 0, z: 0}
+      m_shakeDuration: 1
+      m_foldout: 0
+    - m_name: Middle Look At Bullet Fasten Up
+      m_enabled: 1
+      m_playAudio: 0
+      m_inClip: {fileID: 0}
+      m_outClip: {fileID: 0}
+      m_triggerNextMethod: 6
+      m_triggerNextDuration: 0.5
+      m_triggerNextDistance: 0
+      m_triggerNextBulletPathPercent: 0
+      m_timescaleConnectedToHitDistance: 1
+      m_startTimescale: 0.05
+      m_endTimescale: 0.2
+      m_interpolateTimescale: 1
+      m_timescaleDuration: 0.2
+      m_timescaleCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 0.45674208
+          outSlope: 0.45674208
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 0.92934525
+          value: 0.42447108
+          inSlope: 1.5307212
+          outSlope: 1.5307212
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 8.145651
+          outSlope: 8.145651
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_continueFromPrevious: 1
+      m_positionType: 0
+      m_pathPercent: 0.5
+      m_startPosition: {x: 0, y: 0, z: 0}
+      m_endPosition: {x: 0, y: 0.1, z: -1}
+      m_randomizeStartPosition: 0
+      m_randomizeStartDirectionX: 0
+      m_randomizeStartDirectionY: 0
+      m_randomizeStartDirectionZ: 0
+      m_minStartPosition: {x: 0, y: 0, z: 0}
+      m_maxStartPosition: {x: 0, y: 0, z: 0}
+      m_randomizeEndPosition: 0
+      m_randomizeEndDirectionX: 0
+      m_randomizeEndDirectionY: 0
+      m_randomizeEndDirectionZ: 0
+      m_minEndPosition: {x: 0, y: 0, z: 0}
+      m_maxEndPosition: {x: 0, y: 0, z: 0}
+      m_interpolatePosition: 1
+      m_positionCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_positionDuration: 3
+      m_lookAtBullet: 1
+      m_startLookSpeed: 10
+      m_endLookSpeed: 0
+      m_lookSpeedDuration: 0
+      m_interpolateLookSpeed: 0
+      m_lookSpeedCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_lookAtOffset: {x: 0, y: 0, z: -0}
+      m_interpolateZTilt: 0
+      m_startZTilt: 5
+      m_zTiltSpeed: 3
+      m_endZTilt: 0
+      m_zTiltDuration: 0
+      m_zTiltCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_shakeEnabled: 1
+      m_shakeAmount: {x: 0.6, y: 1.2, z: 1.2}
+      m_shakeSpeed: {x: 40, y: 80, z: 80}
+      m_shakeDuration: 15
+      m_foldout: 0
+    - m_name: Camera Shake and Drift Away
+      m_enabled: 1
+      m_playAudio: 1
+      m_inClip: {fileID: 0}
+      m_outClip: {fileID: 8300000, guid: 96995d21020612e4497578ce2db4f7d6, type: 3}
+      m_triggerNextMethod: 0
+      m_triggerNextDuration: 1
+      m_triggerNextDistance: 0
+      m_triggerNextBulletPathPercent: 0
+      m_timescaleConnectedToHitDistance: 0
+      m_startTimescale: 0.2
+      m_endTimescale: 0
+      m_interpolateTimescale: 0
+      m_timescaleDuration: 0
+      m_timescaleCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_continueFromPrevious: 1
+      m_positionType: 0
+      m_pathPercent: 0.5
+      m_startPosition: {x: 0, y: 0.1, z: -1}
+      m_endPosition: {x: 0, y: 1, z: -3}
+      m_randomizeStartPosition: 0
+      m_randomizeStartDirectionX: 0
+      m_randomizeStartDirectionY: 0
+      m_randomizeStartDirectionZ: 0
+      m_minStartPosition: {x: 0, y: 0, z: 0}
+      m_maxStartPosition: {x: 0, y: 0, z: 0}
+      m_randomizeEndPosition: 0
+      m_randomizeEndDirectionX: 0
+      m_randomizeEndDirectionY: 0
+      m_randomizeEndDirectionZ: 0
+      m_minEndPosition: {x: 0, y: 0, z: 0}
+      m_maxEndPosition: {x: 0, y: 0, z: 0}
+      m_interpolatePosition: 1
+      m_positionCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_positionDuration: 1
+      m_lookAtBullet: 1
+      m_startLookSpeed: 10
+      m_endLookSpeed: 0
+      m_lookSpeedDuration: 0
+      m_interpolateLookSpeed: 0
+      m_lookSpeedCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_lookAtOffset: {x: 0, y: 0, z: 0}
+      m_interpolateZTilt: 0
+      m_startZTilt: 0
+      m_zTiltSpeed: 0
+      m_endZTilt: 0
+      m_zTiltDuration: 0
+      m_zTiltCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_shakeEnabled: 1
+      m_shakeAmount: {x: 1, y: 2, z: 2}
+      m_shakeSpeed: {x: 120, y: 240, z: 120}
+      m_shakeDuration: 0.5
+      m_foldout: 0
+    m_foldout: 0
+    m_previousName: Watch Bullet In Middle
+  - m_name: Track Bullet
+    m_enabled: 1
+    m_startPathPercentage: 0
+    m_timeToResetTimescale: 1
+    m_timeToEndAfterReset: 1
+    m_stages:
+    - m_name: Start From Side of the Barrel
+      m_enabled: 1
+      m_playAudio: 1
+      m_inClip: {fileID: 8300000, guid: 0cb3ba1e84c41d74fa4557ed62727f9e, type: 3}
+      m_outClip: {fileID: 0}
+      m_triggerNextMethod: 0
+      m_triggerNextDuration: 1.5
+      m_triggerNextDistance: 0
+      m_triggerNextBulletPathPercent: 0
+      m_timescaleConnectedToHitDistance: 0
+      m_startTimescale: 0.005
+      m_endTimescale: 0.001
+      m_interpolateTimescale: 1
+      m_timescaleDuration: 0.5
+      m_timescaleCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_continueFromPrevious: 0
+      m_positionType: 2
+      m_pathPercent: 0
+      m_startPosition: {x: 2, y: 0, z: 0.2}
+      m_endPosition: {x: 0.5, y: 0, z: -0.1}
+      m_randomizeStartPosition: 0
+      m_randomizeStartDirectionX: 0
+      m_randomizeStartDirectionY: 0
+      m_randomizeStartDirectionZ: 0
+      m_minStartPosition: {x: 0, y: 0, z: 0}
+      m_maxStartPosition: {x: 0, y: 0, z: 0}
+      m_randomizeEndPosition: 0
+      m_randomizeEndDirectionX: 0
+      m_randomizeEndDirectionY: 0
+      m_randomizeEndDirectionZ: 0
+      m_minEndPosition: {x: 0, y: 0, z: 0}
+      m_maxEndPosition: {x: 0, y: 0, z: 0}
+      m_interpolatePosition: 0
+      m_positionCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_positionDuration: 2
+      m_lookAtBullet: 1
+      m_startLookSpeed: 10
+      m_endLookSpeed: 0
+      m_lookSpeedDuration: 0
+      m_interpolateLookSpeed: 0
+      m_lookSpeedCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_lookAtOffset: {x: 0, y: 0, z: 0}
+      m_interpolateZTilt: 0
+      m_startZTilt: 0
+      m_zTiltSpeed: 0
+      m_endZTilt: 0
+      m_zTiltDuration: 0
+      m_zTiltCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_shakeEnabled: 0
+      m_shakeAmount: {x: 0.5, y: 1, z: 2}
+      m_shakeSpeed: {x: 10, y: 20, z: 20}
+      m_shakeDuration: 2
+      m_foldout: 0
+    - m_name: Get Close To Side
+      m_enabled: 1
+      m_playAudio: 0
+      m_inClip: {fileID: 0}
+      m_outClip: {fileID: 0}
+      m_triggerNextMethod: 0
+      m_triggerNextDuration: 2
+      m_triggerNextDistance: 0
+      m_triggerNextBulletPathPercent: 0
+      m_timescaleConnectedToHitDistance: 0
+      m_startTimescale: 0.001
+      m_endTimescale: 0
+      m_interpolateTimescale: 0
+      m_timescaleDuration: 0
+      m_timescaleCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_continueFromPrevious: 1
+      m_positionType: 0
+      m_pathPercent: 0.05
+      m_startPosition: {x: 0.5, y: 0, z: -0.1}
+      m_endPosition: {x: 0, y: 0, z: 0}
+      m_randomizeStartPosition: 0
+      m_randomizeStartDirectionX: 0
+      m_randomizeStartDirectionY: 0
+      m_randomizeStartDirectionZ: 0
+      m_minStartPosition: {x: 0, y: 0, z: 0}
+      m_maxStartPosition: {x: 0, y: 0, z: 0}
+      m_randomizeEndPosition: 1
+      m_randomizeEndDirectionX: 0
+      m_randomizeEndDirectionY: 0
+      m_randomizeEndDirectionZ: 0
+      m_minEndPosition: {x: -0.05, y: 0, z: -0.05}
+      m_maxEndPosition: {x: -0.1, y: -0.05, z: -0.05}
+      m_interpolatePosition: 1
+      m_positionCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_positionDuration: 1
+      m_lookAtBullet: 1
+      m_startLookSpeed: 10
+      m_endLookSpeed: 0
+      m_lookSpeedDuration: 0
+      m_interpolateLookSpeed: 0
+      m_lookSpeedCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_lookAtOffset: {x: 0, y: 0, z: 0}
+      m_interpolateZTilt: 0
+      m_startZTilt: 0
+      m_zTiltSpeed: 5
+      m_endZTilt: 0
+      m_zTiltDuration: 1
+      m_zTiltCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_shakeEnabled: 0
+      m_shakeAmount: {x: 0, y: 0, z: 0}
+      m_shakeSpeed: {x: 0, y: 0, z: 0}
+      m_shakeDuration: 1
+      m_foldout: 0
+    - m_name: Track Bullet Behind
+      m_enabled: 1
+      m_playAudio: 0
+      m_inClip: {fileID: 0}
+      m_outClip: {fileID: 0}
+      m_triggerNextMethod: 6
+      m_triggerNextDuration: 2
+      m_triggerNextDistance: 0
+      m_triggerNextBulletPathPercent: 0
+      m_timescaleConnectedToHitDistance: 1
+      m_startTimescale: 0.1
+      m_endTimescale: 0
+      m_interpolateTimescale: 0
+      m_timescaleDuration: 0
+      m_timescaleCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_continueFromPrevious: 1
+      m_positionType: 0
+      m_pathPercent: 0.05
+      m_startPosition: {x: 0, y: 0, z: 0}
+      m_endPosition: {x: 0, y: 0, z: 0}
+      m_randomizeStartPosition: 0
+      m_randomizeStartDirectionX: 0
+      m_randomizeStartDirectionY: 0
+      m_randomizeStartDirectionZ: 0
+      m_minStartPosition: {x: 0, y: 0, z: 0}
+      m_maxStartPosition: {x: 0, y: 0, z: 0}
+      m_randomizeEndPosition: 1
+      m_randomizeEndDirectionX: 0
+      m_randomizeEndDirectionY: 0
+      m_randomizeEndDirectionZ: 0
+      m_minEndPosition: {x: 0, y: 0.05, z: -0.15}
+      m_maxEndPosition: {x: 0, y: 0.15, z: -0.7}
+      m_interpolatePosition: 1
+      m_positionCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_positionDuration: 3
+      m_lookAtBullet: 1
+      m_startLookSpeed: 10
+      m_endLookSpeed: 0
+      m_lookSpeedDuration: 0
+      m_interpolateLookSpeed: 0
+      m_lookSpeedCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_lookAtOffset: {x: 0, y: 0, z: 0.3}
+      m_interpolateZTilt: 1
+      m_startZTilt: 15
+      m_zTiltSpeed: 2
+      m_endZTilt: 0
+      m_zTiltDuration: 3
+      m_zTiltCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_shakeEnabled: 1
+      m_shakeAmount: {x: 0.5, y: 0.2, z: 0.5}
+      m_shakeSpeed: {x: 60, y: 120, z: 60}
+      m_shakeDuration: 15
+      m_foldout: 0
+    - m_name: Final
+      m_enabled: 1
+      m_playAudio: 1
+      m_inClip: {fileID: 0}
+      m_outClip: {fileID: 8300000, guid: 96995d21020612e4497578ce2db4f7d6, type: 3}
+      m_triggerNextMethod: 0
+      m_triggerNextDuration: 1
+      m_triggerNextDistance: 0
+      m_triggerNextBulletPathPercent: 0
+      m_timescaleConnectedToHitDistance: 1
+      m_startTimescale: 0.1
+      m_endTimescale: 0
+      m_interpolateTimescale: 0
+      m_timescaleDuration: 0
+      m_timescaleCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_continueFromPrevious: 1
+      m_positionType: 2
+      m_pathPercent: 1
+      m_startPosition: {x: 0, y: 0, z: 0}
+      m_endPosition: {x: 0, y: 0, z: 0}
+      m_randomizeStartPosition: 0
+      m_randomizeStartDirectionX: 0
+      m_randomizeStartDirectionY: 0
+      m_randomizeStartDirectionZ: 0
+      m_minStartPosition: {x: 0, y: 0, z: 0}
+      m_maxStartPosition: {x: 0, y: 0, z: 0}
+      m_randomizeEndPosition: 1
+      m_randomizeEndDirectionX: 0
+      m_randomizeEndDirectionY: 0
+      m_randomizeEndDirectionZ: 0
+      m_minEndPosition: {x: 0, y: 0.1, z: -2}
+      m_maxEndPosition: {x: 0, y: 0.5, z: -3}
+      m_interpolatePosition: 1
+      m_positionCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_positionDuration: 0.2
+      m_lookAtBullet: 0
+      m_startLookSpeed: 10
+      m_endLookSpeed: 0
+      m_lookSpeedDuration: 0
+      m_interpolateLookSpeed: 0
+      m_lookSpeedCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_lookAtOffset: {x: 0, y: 0, z: 0.3}
+      m_interpolateZTilt: 0
+      m_startZTilt: 0
+      m_zTiltSpeed: 5
+      m_endZTilt: 0
+      m_zTiltDuration: 1
+      m_zTiltCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_shakeEnabled: 0
+      m_shakeAmount: {x: 0.5, y: 0.2, z: 0.5}
+      m_shakeSpeed: {x: 60, y: 120, z: 60}
+      m_shakeDuration: 8
+      m_foldout: 0
+    m_foldout: 0
+    m_previousName: Track Bullet
+  - m_name: 180 Degree Dramatic
+    m_enabled: 1
+    m_startPathPercentage: 0.3
+    m_timeToResetTimescale: 1
+    m_timeToEndAfterReset: 1
+    m_stages:
+    - m_name: Start from Bullet's Side
+      m_enabled: 1
+      m_playAudio: 0
+      m_inClip: {fileID: 0}
+      m_outClip: {fileID: 0}
+      m_triggerNextMethod: 0
+      m_triggerNextDuration: 0.7
+      m_triggerNextDistance: 0
+      m_triggerNextBulletPathPercent: 0
+      m_timescaleConnectedToHitDistance: 1
+      m_startTimescale: 0.1
+      m_endTimescale: 0
+      m_interpolateTimescale: 0
+      m_timescaleDuration: 0
+      m_timescaleCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_continueFromPrevious: 0
+      m_positionType: 0
+      m_pathPercent: 0.5
+      m_startPosition: {x: -0.1, y: 0, z: 0}
+      m_endPosition: {x: -0.2, y: 0, z: -0.2}
+      m_randomizeStartPosition: 1
+      m_randomizeStartDirectionX: 0
+      m_randomizeStartDirectionY: 0
+      m_randomizeStartDirectionZ: 0
+      m_minStartPosition: {x: -0.1, y: 0, z: -0.07}
+      m_maxStartPosition: {x: -0.15, y: 0, z: -0.09}
+      m_randomizeEndPosition: 0
+      m_randomizeEndDirectionX: 0
+      m_randomizeEndDirectionY: 0
+      m_randomizeEndDirectionZ: 0
+      m_minEndPosition: {x: 0, y: 0, z: 0}
+      m_maxEndPosition: {x: 0, y: 0, z: 0}
+      m_interpolatePosition: 1
+      m_positionCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_positionDuration: 0.8
+      m_lookAtBullet: 1
+      m_startLookSpeed: 10
+      m_endLookSpeed: 0
+      m_lookSpeedDuration: 0
+      m_interpolateLookSpeed: 0
+      m_lookSpeedCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_lookAtOffset: {x: 0, y: 0, z: 0}
+      m_interpolateZTilt: 1
+      m_startZTilt: 0
+      m_zTiltSpeed: 5
+      m_endZTilt: -20
+      m_zTiltDuration: 0.5
+      m_zTiltCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_shakeEnabled: 1
+      m_shakeAmount: {x: 0.3, y: 0.7, z: 0.7}
+      m_shakeSpeed: {x: 40, y: 80, z: 80}
+      m_shakeDuration: 1
+      m_foldout: 0
+    - m_name: Towards 180 Degrees
+      m_enabled: 1
+      m_playAudio: 1
+      m_inClip: {fileID: 8300000, guid: 0cb3ba1e84c41d74fa4557ed62727f9e, type: 3}
+      m_outClip: {fileID: 0}
+      m_triggerNextMethod: 0
+      m_triggerNextDuration: 0.5
+      m_triggerNextDistance: 0
+      m_triggerNextBulletPathPercent: 0
+      m_timescaleConnectedToHitDistance: 1
+      m_startTimescale: 0.1
+      m_endTimescale: 0.001
+      m_interpolateTimescale: 0
+      m_timescaleDuration: 0.5
+      m_timescaleCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_continueFromPrevious: 1
+      m_positionType: 0
+      m_pathPercent: 0.5
+      m_startPosition: {x: -0.2, y: 0, z: -0.2}
+      m_endPosition: {x: -0.05, y: 0, z: -0.25}
+      m_randomizeStartPosition: 0
+      m_randomizeStartDirectionX: 0
+      m_randomizeStartDirectionY: 0
+      m_randomizeStartDirectionZ: 0
+      m_minStartPosition: {x: -0.1, y: 0, z: -0.07}
+      m_maxStartPosition: {x: -0.15, y: 0, z: -0.09}
+      m_randomizeEndPosition: 0
+      m_randomizeEndDirectionX: 0
+      m_randomizeEndDirectionY: 0
+      m_randomizeEndDirectionZ: 0
+      m_minEndPosition: {x: 0, y: 0, z: 0}
+      m_maxEndPosition: {x: 0, y: 0, z: 0}
+      m_interpolatePosition: 1
+      m_positionCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_positionDuration: 0.5
+      m_lookAtBullet: 1
+      m_startLookSpeed: 10
+      m_endLookSpeed: 0
+      m_lookSpeedDuration: 0
+      m_interpolateLookSpeed: 0
+      m_lookSpeedCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_lookAtOffset: {x: 0, y: 0, z: 0}
+      m_interpolateZTilt: 1
+      m_startZTilt: -20
+      m_zTiltSpeed: 6
+      m_endZTilt: 160
+      m_zTiltDuration: 0.5
+      m_zTiltCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_shakeEnabled: 0
+      m_shakeAmount: {x: 0, y: 0, z: 0}
+      m_shakeSpeed: {x: 0, y: 0, z: 0}
+      m_shakeDuration: 1
+      m_foldout: 0
+    - m_name: 180 Degress
+      m_enabled: 1
+      m_playAudio: 0
+      m_inClip: {fileID: 0}
+      m_outClip: {fileID: 0}
+      m_triggerNextMethod: 0
+      m_triggerNextDuration: 3
+      m_triggerNextDistance: 0
+      m_triggerNextBulletPathPercent: 0
+      m_timescaleConnectedToHitDistance: 1
+      m_startTimescale: 0.001
+      m_endTimescale: 0.001
+      m_interpolateTimescale: 0
+      m_timescaleDuration: 0.5
+      m_timescaleCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_continueFromPrevious: 1
+      m_positionType: 0
+      m_pathPercent: 0.5
+      m_startPosition: {x: -0.05, y: 0, z: -0.25}
+      m_endPosition: {x: 0, y: 0, z: -0.3}
+      m_randomizeStartPosition: 0
+      m_randomizeStartDirectionX: 0
+      m_randomizeStartDirectionY: 0
+      m_randomizeStartDirectionZ: 0
+      m_minStartPosition: {x: -0.1, y: 0, z: -0.07}
+      m_maxStartPosition: {x: -0.15, y: 0, z: -0.09}
+      m_randomizeEndPosition: 0
+      m_randomizeEndDirectionX: 0
+      m_randomizeEndDirectionY: 0
+      m_randomizeEndDirectionZ: 0
+      m_minEndPosition: {x: 0, y: 0, z: 0}
+      m_maxEndPosition: {x: 0, y: 0, z: 0}
+      m_interpolatePosition: 1
+      m_positionCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_positionDuration: 3
+      m_lookAtBullet: 1
+      m_startLookSpeed: 10
+      m_endLookSpeed: 0
+      m_lookSpeedDuration: 0
+      m_interpolateLookSpeed: 0
+      m_lookSpeedCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_lookAtOffset: {x: 0, y: 0, z: 0}
+      m_interpolateZTilt: 1
+      m_startZTilt: 160
+      m_zTiltSpeed: 6
+      m_endZTilt: 200
+      m_zTiltDuration: 3
+      m_zTiltCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_shakeEnabled: 0
+      m_shakeAmount: {x: 0, y: 0, z: 0}
+      m_shakeSpeed: {x: 0, y: 0, z: 0}
+      m_shakeDuration: 1
+      m_foldout: 0
+    - m_name: Back To 360
+      m_enabled: 1
+      m_playAudio: 1
+      m_inClip: {fileID: 0}
+      m_outClip: {fileID: 8300000, guid: 96995d21020612e4497578ce2db4f7d6, type: 3}
+      m_triggerNextMethod: 6
+      m_triggerNextDuration: 3
+      m_triggerNextDistance: 0
+      m_triggerNextBulletPathPercent: 0
+      m_timescaleConnectedToHitDistance: 1
+      m_startTimescale: 0.1
+      m_endTimescale: 0.001
+      m_interpolateTimescale: 0
+      m_timescaleDuration: 0.5
+      m_timescaleCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_continueFromPrevious: 1
+      m_positionType: 0
+      m_pathPercent: 0.5
+      m_startPosition: {x: 0, y: 0, z: -0.3}
+      m_endPosition: {x: 0, y: 0.2, z: -0.3}
+      m_randomizeStartPosition: 0
+      m_randomizeStartDirectionX: 0
+      m_randomizeStartDirectionY: 0
+      m_randomizeStartDirectionZ: 0
+      m_minStartPosition: {x: -0.1, y: 0, z: -0.07}
+      m_maxStartPosition: {x: -0.15, y: 0, z: -0.09}
+      m_randomizeEndPosition: 0
+      m_randomizeEndDirectionX: 0
+      m_randomizeEndDirectionY: 0
+      m_randomizeEndDirectionZ: 0
+      m_minEndPosition: {x: 0, y: 0, z: 0}
+      m_maxEndPosition: {x: 0, y: 0, z: 0}
+      m_interpolatePosition: 1
+      m_positionCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_positionDuration: 3
+      m_lookAtBullet: 1
+      m_startLookSpeed: 10
+      m_endLookSpeed: 0
+      m_lookSpeedDuration: 0
+      m_interpolateLookSpeed: 0
+      m_lookSpeedCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_lookAtOffset: {x: 0, y: 0, z: 0}
+      m_interpolateZTilt: 1
+      m_startZTilt: 200
+      m_zTiltSpeed: 6
+      m_endZTilt: 360
+      m_zTiltDuration: 0.3
+      m_zTiltCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_shakeEnabled: 1
+      m_shakeAmount: {x: 0.5, y: 1, z: 2}
+      m_shakeSpeed: {x: 40, y: 80, z: 80}
+      m_shakeDuration: 10
+      m_foldout: 0
+    - m_name: Target Hit
+      m_enabled: 1
+      m_playAudio: 0
+      m_inClip: {fileID: 0}
+      m_outClip: {fileID: 0}
+      m_triggerNextMethod: 0
+      m_triggerNextDuration: 3
+      m_triggerNextDistance: 0
+      m_triggerNextBulletPathPercent: 0
+      m_timescaleConnectedToHitDistance: 1
+      m_startTimescale: 0.1
+      m_endTimescale: 0.001
+      m_interpolateTimescale: 0
+      m_timescaleDuration: 0.5
+      m_timescaleCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_continueFromPrevious: 1
+      m_positionType: 1
+      m_pathPercent: 0.5
+      m_startPosition: {x: 0, y: 0.2, z: -0.3}
+      m_endPosition: {x: 0, y: 2, z: -5}
+      m_randomizeStartPosition: 0
+      m_randomizeStartDirectionX: 0
+      m_randomizeStartDirectionY: 0
+      m_randomizeStartDirectionZ: 0
+      m_minStartPosition: {x: -0.1, y: 0, z: -0.07}
+      m_maxStartPosition: {x: -0.15, y: 0, z: -0.09}
+      m_randomizeEndPosition: 0
+      m_randomizeEndDirectionX: 0
+      m_randomizeEndDirectionY: 0
+      m_randomizeEndDirectionZ: 0
+      m_minEndPosition: {x: 0, y: 0, z: 0}
+      m_maxEndPosition: {x: 0, y: 0, z: 0}
+      m_interpolatePosition: 1
+      m_positionCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_positionDuration: 1
+      m_lookAtBullet: 0
+      m_startLookSpeed: 10
+      m_endLookSpeed: 0
+      m_lookSpeedDuration: 0
+      m_interpolateLookSpeed: 0
+      m_lookSpeedCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_lookAtOffset: {x: 0, y: 0, z: 0}
+      m_interpolateZTilt: 0
+      m_startZTilt: 0
+      m_zTiltSpeed: 6
+      m_endZTilt: 360
+      m_zTiltDuration: 0.3
+      m_zTiltCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_shakeEnabled: 0
+      m_shakeAmount: {x: 0, y: 0, z: 0}
+      m_shakeSpeed: {x: 0, y: 0, z: 0}
+      m_shakeDuration: 1
+      m_foldout: 0
+    m_foldout: 0
+    m_previousName: 180 Degree Dramatic
+  - m_name: Watch Bullet - Front to Back
+    m_enabled: 1
+    m_startPathPercentage: 0.14
+    m_timeToResetTimescale: 1
+    m_timeToEndAfterReset: 1
+    m_stages:
+    - m_name: Watch Bullet From Front
+      m_enabled: 1
+      m_playAudio: 1
+      m_inClip: {fileID: 8300000, guid: 0cb3ba1e84c41d74fa4557ed62727f9e, type: 3}
+      m_outClip: {fileID: 0}
+      m_triggerNextMethod: 0
+      m_triggerNextDuration: 2.3
+      m_triggerNextDistance: 0
+      m_triggerNextBulletPathPercent: 0.757
+      m_timescaleConnectedToHitDistance: 0
+      m_startTimescale: 0.1
+      m_endTimescale: 0
+      m_interpolateTimescale: 0
+      m_timescaleDuration: 0
+      m_timescaleCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_continueFromPrevious: 0
+      m_positionType: 0
+      m_pathPercent: 0.5
+      m_startPosition: {x: 0, y: 0, z: 2}
+      m_endPosition: {x: 0, y: 0, z: 0}
+      m_randomizeStartPosition: 1
+      m_randomizeStartDirectionX: 0
+      m_randomizeStartDirectionY: 0
+      m_randomizeStartDirectionZ: 0
+      m_minStartPosition: {x: -0.2, y: 0, z: 0.2}
+      m_maxStartPosition: {x: -0.4, y: 0, z: 0.3}
+      m_randomizeEndPosition: 1
+      m_randomizeEndDirectionX: 0
+      m_randomizeEndDirectionY: 0
+      m_randomizeEndDirectionZ: 0
+      m_minEndPosition: {x: 0.1, y: 0.2, z: 0}
+      m_maxEndPosition: {x: 0.1, y: 0.4, z: 0}
+      m_interpolatePosition: 1
+      m_positionCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_positionDuration: 2
+      m_lookAtBullet: 1
+      m_startLookSpeed: 10
+      m_endLookSpeed: 0
+      m_lookSpeedDuration: 0
+      m_interpolateLookSpeed: 0
+      m_lookSpeedCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_lookAtOffset: {x: 0, y: 0, z: 0}
+      m_interpolateZTilt: 0
+      m_startZTilt: 0
+      m_zTiltSpeed: 0
+      m_endZTilt: 0
+      m_zTiltDuration: 0
+      m_zTiltCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_shakeEnabled: 1
+      m_shakeAmount: {x: 0.5, y: 1, z: 2}
+      m_shakeSpeed: {x: 40, y: 80, z: 80}
+      m_shakeDuration: 3
+      m_foldout: 0
+    - m_name: Let Bullet Pass By
+      m_enabled: 1
+      m_playAudio: 0
+      m_inClip: {fileID: 0}
+      m_outClip: {fileID: 0}
+      m_triggerNextMethod: 6
+      m_triggerNextDuration: 2
+      m_triggerNextDistance: 0
+      m_triggerNextBulletPathPercent: 0
+      m_timescaleConnectedToHitDistance: 1
+      m_startTimescale: 0.4
+      m_endTimescale: 0
+      m_interpolateTimescale: 0
+      m_timescaleDuration: 0
+      m_timescaleCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_continueFromPrevious: 1
+      m_positionType: 0
+      m_pathPercent: 0.5
+      m_startPosition: {x: 0, y: 0, z: 0}
+      m_endPosition: {x: 0, y: 0.1, z: -4}
+      m_randomizeStartPosition: 0
+      m_randomizeStartDirectionX: 0
+      m_randomizeStartDirectionY: 0
+      m_randomizeStartDirectionZ: 0
+      m_minStartPosition: {x: 0, y: 0, z: 0}
+      m_maxStartPosition: {x: 0, y: 0, z: 0}
+      m_randomizeEndPosition: 0
+      m_randomizeEndDirectionX: 0
+      m_randomizeEndDirectionY: 0
+      m_randomizeEndDirectionZ: 0
+      m_minEndPosition: {x: 0, y: 0, z: 0}
+      m_maxEndPosition: {x: 0, y: 0, z: 0}
+      m_interpolatePosition: 1
+      m_positionCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_positionDuration: 2
+      m_lookAtBullet: 1
+      m_startLookSpeed: 1
+      m_endLookSpeed: 8
+      m_lookSpeedDuration: 1
+      m_interpolateLookSpeed: 1
+      m_lookSpeedCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_lookAtOffset: {x: 0, y: 0, z: 0}
+      m_interpolateZTilt: 0
+      m_startZTilt: 0
+      m_zTiltSpeed: 0
+      m_endZTilt: 0
+      m_zTiltDuration: 0
+      m_zTiltCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_shakeEnabled: 1
+      m_shakeAmount: {x: 0.5, y: 1, z: 2}
+      m_shakeSpeed: {x: 40, y: 80, z: 80}
+      m_shakeDuration: 3
+      m_foldout: 0
+    m_foldout: 0
+    m_previousName: Watch Bullet - Front to Back
+  - m_name: Swing Around Bullet
+    m_enabled: 1
+    m_startPathPercentage: 0.1
+    m_timeToResetTimescale: 1
+    m_timeToEndAfterReset: 1
+    m_stages:
+    - m_name: To Bullet's Right
+      m_enabled: 1
+      m_playAudio: 1
+      m_inClip: {fileID: 8300000, guid: 0cb3ba1e84c41d74fa4557ed62727f9e, type: 3}
+      m_outClip: {fileID: 0}
+      m_triggerNextMethod: 0
+      m_triggerNextDuration: 2
+      m_triggerNextDistance: 0
+      m_triggerNextBulletPathPercent: 0
+      m_timescaleConnectedToHitDistance: 1
+      m_startTimescale: 0.2
+      m_endTimescale: 0.005
+      m_interpolateTimescale: 1
+      m_timescaleDuration: 1.5
+      m_timescaleCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 0.71970993
+          outSlope: 0.71970993
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 0.7267257
+          value: 0.5230317
+          inSlope: 0.2975893
+          outSlope: 0.2975893
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1.7453829
+          outSlope: 1.7453829
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_continueFromPrevious: 0
+      m_positionType: 0
+      m_pathPercent: 0.5
+      m_startPosition: {x: 0, y: 0, z: -0.095}
+      m_endPosition: {x: 0.04, y: -0.01, z: -0.02}
+      m_randomizeStartPosition: 0
+      m_randomizeStartDirectionX: 0
+      m_randomizeStartDirectionY: 0
+      m_randomizeStartDirectionZ: 0
+      m_minStartPosition: {x: 0, y: 0, z: 0}
+      m_maxStartPosition: {x: 0, y: 0, z: 0}
+      m_randomizeEndPosition: 0
+      m_randomizeEndDirectionX: 0
+      m_randomizeEndDirectionY: 0
+      m_randomizeEndDirectionZ: 0
+      m_minEndPosition: {x: 0, y: 0, z: 0}
+      m_maxEndPosition: {x: 0, y: 0, z: 0}
+      m_interpolatePosition: 1
+      m_positionCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 3.003532
+          outSlope: 3.003532
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 0.2974097
+          value: 0.89327955
+          inSlope: 0.34426692
+          outSlope: 0.34426692
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 0.1518957
+          outSlope: 0.1518957
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_positionDuration: 4
+      m_lookAtBullet: 0
+      m_startLookSpeed: 10
+      m_endLookSpeed: 0
+      m_lookSpeedDuration: 0
+      m_interpolateLookSpeed: 0
+      m_lookSpeedCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_lookAtOffset: {x: 0, y: 0, z: 0}
+      m_interpolateZTilt: 1
+      m_startZTilt: 0
+      m_zTiltSpeed: 5
+      m_endZTilt: 15
+      m_zTiltDuration: 4
+      m_zTiltCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 3.3477204
+          outSlope: 3.3477204
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 0.2586974
+          value: 0.86604655
+          inSlope: 0.41201887
+          outSlope: 0.41201887
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 0.1807001
+          outSlope: 0.1807001
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_shakeEnabled: 1
+      m_shakeAmount: {x: 0.5, y: 1, z: 2}
+      m_shakeSpeed: {x: 40, y: 80, z: 80}
+      m_shakeDuration: 2
+      m_foldout: 0
+    - m_name: To Bullet's Left
+      m_enabled: 1
+      m_playAudio: 1
+      m_inClip: {fileID: 8300000, guid: fe526a02f3b1f58499b21df8fb4435b0, type: 3}
+      m_outClip: {fileID: 0}
+      m_triggerNextMethod: 0
+      m_triggerNextDuration: 2
+      m_triggerNextDistance: 0
+      m_triggerNextBulletPathPercent: 0
+      m_timescaleConnectedToHitDistance: 1
+      m_startTimescale: 0.1
+      m_endTimescale: 0.005
+      m_interpolateTimescale: 1
+      m_timescaleDuration: 1.5
+      m_timescaleCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 1.8809463
+          outSlope: 1.8809463
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 0.65172875
+          value: 1.2258668
+          inSlope: 0.2975893
+          outSlope: 0.2975893
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: -0.648537
+          outSlope: -0.648537
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_continueFromPrevious: 1
+      m_positionType: 0
+      m_pathPercent: 0.5
+      m_startPosition: {x: 0.04, y: -0.01, z: -0.02}
+      m_endPosition: {x: -0.01, y: 0.01, z: -0.08}
+      m_randomizeStartPosition: 0
+      m_randomizeStartDirectionX: 0
+      m_randomizeStartDirectionY: 0
+      m_randomizeStartDirectionZ: 0
+      m_minStartPosition: {x: 0, y: 0, z: 0}
+      m_maxStartPosition: {x: 0, y: 0, z: 0}
+      m_randomizeEndPosition: 0
+      m_randomizeEndDirectionX: 0
+      m_randomizeEndDirectionY: 0
+      m_randomizeEndDirectionZ: 0
+      m_minEndPosition: {x: 0, y: 0, z: 0}
+      m_maxEndPosition: {x: 0, y: 0, z: 0}
+      m_interpolatePosition: 1
+      m_positionCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 3.5452979
+          outSlope: 3.5452979
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 0.26651955
+          value: 0.94489115
+          inSlope: 0.104388
+          outSlope: 0.104388
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 0.07513335
+          outSlope: 0.07513335
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_positionDuration: 1.5
+      m_lookAtBullet: 0
+      m_startLookSpeed: 10
+      m_endLookSpeed: 0
+      m_lookSpeedDuration: 0
+      m_interpolateLookSpeed: 0
+      m_lookSpeedCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_lookAtOffset: {x: 0, y: 0, z: 0}
+      m_interpolateZTilt: 1
+      m_startZTilt: 15
+      m_zTiltSpeed: 5
+      m_endZTilt: -15
+      m_zTiltDuration: 1.5
+      m_zTiltCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 4.166126
+          outSlope: 4.166126
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 0.21989629
+          value: 0.9161156
+          inSlope: 0.13259785
+          outSlope: 0.13259785
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 0.107529834
+          outSlope: 0.107529834
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_shakeEnabled: 1
+      m_shakeAmount: {x: 1, y: 2, z: 2}
+      m_shakeSpeed: {x: 40, y: 80, z: 80}
+      m_shakeDuration: 2
+      m_foldout: 0
+    - m_name: To Bullet's Below
+      m_enabled: 1
+      m_playAudio: 1
+      m_inClip: {fileID: 8300000, guid: cad07f17b7d175e46a08836085c3c2c1, type: 3}
+      m_outClip: {fileID: 0}
+      m_triggerNextMethod: 0
+      m_triggerNextDuration: 2
+      m_triggerNextDistance: 0
+      m_triggerNextBulletPathPercent: 0
+      m_timescaleConnectedToHitDistance: 0
+      m_startTimescale: 0.1
+      m_endTimescale: 0.005
+      m_interpolateTimescale: 1
+      m_timescaleDuration: 0.4
+      m_timescaleCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 0.71970993
+          outSlope: 0.71970993
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 0.7267257
+          value: 0.5230317
+          inSlope: 0.2975893
+          outSlope: 0.2975893
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1.7453829
+          outSlope: 1.7453829
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_continueFromPrevious: 1
+      m_positionType: 0
+      m_pathPercent: 0.5
+      m_startPosition: {x: -0.01, y: 0.01, z: -0.08}
+      m_endPosition: {x: 0, y: -0.03, z: -0.03}
+      m_randomizeStartPosition: 0
+      m_randomizeStartDirectionX: 0
+      m_randomizeStartDirectionY: 0
+      m_randomizeStartDirectionZ: 0
+      m_minStartPosition: {x: 0, y: 0, z: 0}
+      m_maxStartPosition: {x: 0, y: 0, z: 0}
+      m_randomizeEndPosition: 0
+      m_randomizeEndDirectionX: 0
+      m_randomizeEndDirectionY: 0
+      m_randomizeEndDirectionZ: 0
+      m_minEndPosition: {x: 0, y: 0, z: 0}
+      m_maxEndPosition: {x: 0, y: 0, z: 0}
+      m_interpolatePosition: 1
+      m_positionCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 0.78945637
+          outSlope: 0.78945637
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 0.7378692
+          value: 0.58251554
+          inSlope: 0.91437775
+          outSlope: 0.91437775
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1.5926571
+          outSlope: 1.5926571
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_positionDuration: 0.4
+      m_lookAtBullet: 0
+      m_startLookSpeed: 10
+      m_endLookSpeed: 0
+      m_lookSpeedDuration: 0
+      m_interpolateLookSpeed: 0
+      m_lookSpeedCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_lookAtOffset: {x: 0, y: 0, z: 0}
+      m_interpolateZTilt: 1
+      m_startZTilt: -15
+      m_zTiltSpeed: 5
+      m_endZTilt: 0
+      m_zTiltDuration: 0.4
+      m_zTiltCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_shakeEnabled: 1
+      m_shakeAmount: {x: 0.4, y: 0.8, z: 0.8}
+      m_shakeSpeed: {x: 40, y: 80, z: 80}
+      m_shakeDuration: 15
+      m_foldout: 0
+    - m_name: Go Behind
+      m_enabled: 1
+      m_playAudio: 0
+      m_inClip: {fileID: 0}
+      m_outClip: {fileID: 0}
+      m_triggerNextMethod: 6
+      m_triggerNextDuration: 2
+      m_triggerNextDistance: 0
+      m_triggerNextBulletPathPercent: 0
+      m_timescaleConnectedToHitDistance: 1
+      m_startTimescale: 0.2
+      m_endTimescale: 0.005
+      m_interpolateTimescale: 0
+      m_timescaleDuration: 0.4
+      m_timescaleCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 0.71970993
+          outSlope: 0.71970993
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 0.7267257
+          value: 0.5230317
+          inSlope: 0.2975893
+          outSlope: 0.2975893
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1.7453829
+          outSlope: 1.7453829
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_continueFromPrevious: 1
+      m_positionType: 0
+      m_pathPercent: 0.5
+      m_startPosition: {x: 0, y: -0.03, z: -0.03}
+      m_endPosition: {x: 0, y: 0, z: -0.3}
+      m_randomizeStartPosition: 0
+      m_randomizeStartDirectionX: 0
+      m_randomizeStartDirectionY: 0
+      m_randomizeStartDirectionZ: 0
+      m_minStartPosition: {x: 0, y: 0, z: 0}
+      m_maxStartPosition: {x: 0, y: 0, z: 0}
+      m_randomizeEndPosition: 0
+      m_randomizeEndDirectionX: 0
+      m_randomizeEndDirectionY: 0
+      m_randomizeEndDirectionZ: 0
+      m_minEndPosition: {x: 0, y: 0, z: 0}
+      m_maxEndPosition: {x: 0, y: 0, z: 0}
+      m_interpolatePosition: 1
+      m_positionCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 0.78945637
+          outSlope: 0.78945637
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 0.7378692
+          value: 0.58251554
+          inSlope: 0.91437775
+          outSlope: 0.91437775
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1.5926571
+          outSlope: 1.5926571
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_positionDuration: 0.4
+      m_lookAtBullet: 0
+      m_startLookSpeed: 10
+      m_endLookSpeed: 0
+      m_lookSpeedDuration: 0
+      m_interpolateLookSpeed: 0
+      m_lookSpeedCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_lookAtOffset: {x: 0, y: 0, z: 0}
+      m_interpolateZTilt: 1
+      m_startZTilt: -15
+      m_zTiltSpeed: 5
+      m_endZTilt: 0
+      m_zTiltDuration: 0.4
+      m_zTiltCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_shakeEnabled: 1
+      m_shakeAmount: {x: 0.5, y: 1, z: 1}
+      m_shakeSpeed: {x: 40, y: 80, z: 80}
+      m_shakeDuration: 15
+      m_foldout: 0
+    - m_name: Final
+      m_enabled: 1
+      m_playAudio: 1
+      m_inClip: {fileID: 0}
+      m_outClip: {fileID: 8300000, guid: 96995d21020612e4497578ce2db4f7d6, type: 3}
+      m_triggerNextMethod: 0
+      m_triggerNextDuration: 2
+      m_triggerNextDistance: 0
+      m_triggerNextBulletPathPercent: 0
+      m_timescaleConnectedToHitDistance: 1
+      m_startTimescale: 0.2
+      m_endTimescale: 0.005
+      m_interpolateTimescale: 0
+      m_timescaleDuration: 0.4
+      m_timescaleCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 0.71970993
+          outSlope: 0.71970993
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 0.7267257
+          value: 0.5230317
+          inSlope: 0.2975893
+          outSlope: 0.2975893
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1.7453829
+          outSlope: 1.7453829
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_continueFromPrevious: 1
+      m_positionType: 1
+      m_pathPercent: 0.5
+      m_startPosition: {x: 0, y: 0, z: -0.3}
+      m_endPosition: {x: 0, y: 0, z: -2}
+      m_randomizeStartPosition: 0
+      m_randomizeStartDirectionX: 0
+      m_randomizeStartDirectionY: 0
+      m_randomizeStartDirectionZ: 0
+      m_minStartPosition: {x: 0, y: 0, z: 0}
+      m_maxStartPosition: {x: 0, y: 0, z: 0}
+      m_randomizeEndPosition: 0
+      m_randomizeEndDirectionX: 0
+      m_randomizeEndDirectionY: 0
+      m_randomizeEndDirectionZ: 0
+      m_minEndPosition: {x: 0, y: 0, z: 0}
+      m_maxEndPosition: {x: 0, y: 0, z: 0}
+      m_interpolatePosition: 1
+      m_positionCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 0.78945637
+          outSlope: 0.78945637
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 0.7378692
+          value: 0.58251554
+          inSlope: 0.91437775
+          outSlope: 0.91437775
+          tangentMode: 0
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1.5926571
+          outSlope: 1.5926571
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_positionDuration: 0.4
+      m_lookAtBullet: 0
+      m_startLookSpeed: 10
+      m_endLookSpeed: 0
+      m_lookSpeedDuration: 0
+      m_interpolateLookSpeed: 0
+      m_lookSpeedCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_lookAtOffset: {x: 0, y: 0, z: 0}
+      m_interpolateZTilt: 1
+      m_startZTilt: -15
+      m_zTiltSpeed: 5
+      m_endZTilt: 0
+      m_zTiltDuration: 0.4
+      m_zTiltCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_shakeEnabled: 0
+      m_shakeAmount: {x: 0, y: 0, z: 0}
+      m_shakeSpeed: {x: 0, y: 0, z: 0}
+      m_shakeDuration: 1
+      m_foldout: 0
+    m_foldout: 0
+    m_previousName: Swing Around Bullet
+  - m_name: Topdown To Behind
+    m_enabled: 1
+    m_startPathPercentage: 0.5
+    m_timeToResetTimescale: 1
+    m_timeToEndAfterReset: 1
+    m_stages:
+    - m_name: Topdown
+      m_enabled: 1
+      m_playAudio: 1
+      m_inClip: {fileID: 8300000, guid: 0cb3ba1e84c41d74fa4557ed62727f9e, type: 3}
+      m_outClip: {fileID: 0}
+      m_triggerNextMethod: 0
+      m_triggerNextDuration: 2
+      m_triggerNextDistance: 0
+      m_triggerNextBulletPathPercent: 0
+      m_timescaleConnectedToHitDistance: 1
+      m_startTimescale: 0.1
+      m_endTimescale: 0.003
+      m_interpolateTimescale: 1
+      m_timescaleDuration: 0.3
+      m_timescaleCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_continueFromPrevious: 0
+      m_positionType: 0
+      m_pathPercent: 0.5
+      m_startPosition: {x: 0, y: 1, z: 0}
+      m_endPosition: {x: 0, y: 0, z: -1}
+      m_randomizeStartPosition: 0
+      m_randomizeStartDirectionX: 0
+      m_randomizeStartDirectionY: 0
+      m_randomizeStartDirectionZ: 0
+      m_minStartPosition: {x: 0, y: 0, z: 0}
+      m_maxStartPosition: {x: 0, y: 0, z: 0}
+      m_randomizeEndPosition: 0
+      m_randomizeEndDirectionX: 0
+      m_randomizeEndDirectionY: 0
+      m_randomizeEndDirectionZ: 0
+      m_minEndPosition: {x: 0, y: 0, z: 0}
+      m_maxEndPosition: {x: 0, y: 0, z: 0}
+      m_interpolatePosition: 1
+      m_positionCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_positionDuration: 3
+      m_lookAtBullet: 1
+      m_startLookSpeed: 10
+      m_endLookSpeed: 0
+      m_lookSpeedDuration: 0
+      m_interpolateLookSpeed: 0
+      m_lookSpeedCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_lookAtOffset: {x: 0, y: 0, z: 0}
+      m_interpolateZTilt: 0
+      m_startZTilt: 0
+      m_zTiltSpeed: 0
+      m_endZTilt: 0
+      m_zTiltDuration: 0
+      m_zTiltCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_shakeEnabled: 1
+      m_shakeAmount: {x: 0.5, y: 1, z: 2}
+      m_shakeSpeed: {x: 40, y: 80, z: 80}
+      m_shakeDuration: 1
+      m_foldout: 0
+    - m_name: Behind
+      m_enabled: 1
+      m_playAudio: 0
+      m_inClip: {fileID: 0}
+      m_outClip: {fileID: 0}
+      m_triggerNextMethod: 5
+      m_triggerNextDuration: 3
+      m_triggerNextDistance: 0
+      m_triggerNextBulletPathPercent: 0.959
+      m_timescaleConnectedToHitDistance: 1
+      m_startTimescale: 0.3
+      m_endTimescale: 0
+      m_interpolateTimescale: 0
+      m_timescaleDuration: 0
+      m_timescaleCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_continueFromPrevious: 1
+      m_positionType: 0
+      m_pathPercent: 0.5
+      m_startPosition: {x: 0, y: 0, z: -1}
+      m_endPosition: {x: 0, y: 2, z: -3}
+      m_randomizeStartPosition: 0
+      m_randomizeStartDirectionX: 0
+      m_randomizeStartDirectionY: 0
+      m_randomizeStartDirectionZ: 0
+      m_minStartPosition: {x: 0, y: 0, z: 0}
+      m_maxStartPosition: {x: 0, y: 0, z: 0}
+      m_randomizeEndPosition: 0
+      m_randomizeEndDirectionX: 0
+      m_randomizeEndDirectionY: 0
+      m_randomizeEndDirectionZ: 0
+      m_minEndPosition: {x: 0, y: 0, z: 0}
+      m_maxEndPosition: {x: 0, y: 0, z: 0}
+      m_interpolatePosition: 1
+      m_positionCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_positionDuration: 3
+      m_lookAtBullet: 1
+      m_startLookSpeed: 10
+      m_endLookSpeed: 0
+      m_lookSpeedDuration: 0
+      m_interpolateLookSpeed: 0
+      m_lookSpeedCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_lookAtOffset: {x: 0, y: 0, z: 0}
+      m_interpolateZTilt: 0
+      m_startZTilt: 0
+      m_zTiltSpeed: 0
+      m_endZTilt: 0
+      m_zTiltDuration: 0
+      m_zTiltCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_shakeEnabled: 1
+      m_shakeAmount: {x: 0.1, y: 0.3, z: 0.5}
+      m_shakeSpeed: {x: 40, y: 80, z: 80}
+      m_shakeDuration: 15
+      m_foldout: 0
+    - m_name: End
+      m_enabled: 1
+      m_playAudio: 1
+      m_inClip: {fileID: 0}
+      m_outClip: {fileID: 8300000, guid: 96995d21020612e4497578ce2db4f7d6, type: 3}
+      m_triggerNextMethod: 0
+      m_triggerNextDuration: 1
+      m_triggerNextDistance: 0
+      m_triggerNextBulletPathPercent: 0
+      m_timescaleConnectedToHitDistance: 0
+      m_startTimescale: 0.1
+      m_endTimescale: 0
+      m_interpolateTimescale: 0
+      m_timescaleDuration: 0
+      m_timescaleCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_continueFromPrevious: 0
+      m_positionType: 1
+      m_pathPercent: 0.5
+      m_startPosition: {x: 0, y: 0, z: 0}
+      m_endPosition: {x: 0, y: 0, z: 0}
+      m_randomizeStartPosition: 1
+      m_randomizeStartDirectionX: 0
+      m_randomizeStartDirectionY: 0
+      m_randomizeStartDirectionZ: 0
+      m_minStartPosition: {x: -2, y: 0, z: -2.5}
+      m_maxStartPosition: {x: 2, y: 1, z: -5}
+      m_randomizeEndPosition: 0
+      m_randomizeEndDirectionX: 0
+      m_randomizeEndDirectionY: 0
+      m_randomizeEndDirectionZ: 0
+      m_minEndPosition: {x: 0, y: 0, z: 0}
+      m_maxEndPosition: {x: 0, y: 0, z: 0}
+      m_interpolatePosition: 0
+      m_positionCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_positionDuration: 0
+      m_lookAtBullet: 0
+      m_startLookSpeed: 10
+      m_endLookSpeed: 0
+      m_lookSpeedDuration: 0
+      m_interpolateLookSpeed: 0
+      m_lookSpeedCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_lookAtOffset: {x: 0, y: 0, z: 0}
+      m_interpolateZTilt: 0
+      m_startZTilt: 0
+      m_zTiltSpeed: 0
+      m_endZTilt: 0
+      m_zTiltDuration: 0
+      m_zTiltCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_shakeEnabled: 0
+      m_shakeAmount: {x: 0.5, y: 1, z: 1}
+      m_shakeSpeed: {x: 40, y: 80, z: 80}
+      m_shakeDuration: 2
+      m_foldout: 0
+    m_foldout: 0
+    m_previousName: Topdown To Behind
+  - m_name: Watch Bullet Generic
+    m_enabled: 1
+    m_startPathPercentage: 0
+    m_timeToResetTimescale: 1
+    m_timeToEndAfterReset: 1
+    m_stages:
+    - m_name: Begin
+      m_enabled: 0
+      m_playAudio: 1
+      m_inClip: {fileID: 8300000, guid: 0cb3ba1e84c41d74fa4557ed62727f9e, type: 3}
+      m_outClip: {fileID: 0}
+      m_triggerNextMethod: 0
+      m_triggerNextDuration: 2
+      m_triggerNextDistance: 0
+      m_triggerNextBulletPathPercent: 0
+      m_timescaleConnectedToHitDistance: 0
+      m_startTimescale: 0.001
+      m_endTimescale: 0.0005
+      m_interpolateTimescale: 1
+      m_timescaleDuration: 2
+      m_timescaleCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_continueFromPrevious: 0
+      m_positionType: 0
+      m_pathPercent: 0.5
+      m_startPosition: {x: 0.5, y: -0.5, z: 0.1}
+      m_endPosition: {x: 0, y: 0, z: 0}
+      m_randomizeStartPosition: 1
+      m_randomizeStartDirectionX: 1
+      m_randomizeStartDirectionY: 1
+      m_randomizeStartDirectionZ: 0
+      m_minStartPosition: {x: 0.5, y: 0.2, z: 0.3}
+      m_maxStartPosition: {x: 1, y: 0.8, z: 1}
+      m_randomizeEndPosition: 1
+      m_randomizeEndDirectionX: 1
+      m_randomizeEndDirectionY: 1
+      m_randomizeEndDirectionZ: 0
+      m_minEndPosition: {x: 0.5, y: 0.2, z: 0.3}
+      m_maxEndPosition: {x: 1, y: 0.8, z: 1}
+      m_interpolatePosition: 1
+      m_positionCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_positionDuration: 2
+      m_lookAtBullet: 1
+      m_startLookSpeed: 10
+      m_endLookSpeed: 0
+      m_lookSpeedDuration: 0
+      m_interpolateLookSpeed: 0
+      m_lookSpeedCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_lookAtOffset: {x: 0, y: 0, z: 0}
+      m_interpolateZTilt: 1
+      m_startZTilt: 45
+      m_zTiltSpeed: 12
+      m_endZTilt: 0
+      m_zTiltDuration: 3
+      m_zTiltCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_shakeEnabled: 1
+      m_shakeAmount: {x: 0.5, y: 1, z: 2}
+      m_shakeSpeed: {x: 40, y: 80, z: 80}
+      m_shakeDuration: 2
+      m_foldout: 0
+    - m_name: Follow
+      m_enabled: 1
+      m_playAudio: 0
+      m_inClip: {fileID: 0}
+      m_outClip: {fileID: 0}
+      m_triggerNextMethod: 6
+      m_triggerNextDuration: 0
+      m_triggerNextDistance: 0
+      m_triggerNextBulletPathPercent: 0
+      m_timescaleConnectedToHitDistance: 0
+      m_startTimescale: 0.005
+      m_endTimescale: 0.7
+      m_interpolateTimescale: 1
+      m_timescaleDuration: 2
+      m_timescaleCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_continueFromPrevious: 1
+      m_positionType: 0
+      m_pathPercent: 0.5
+      m_startPosition: {x: 0, y: 0, z: 0}
+      m_endPosition: {x: 0, y: 0, z: -0.3}
+      m_randomizeStartPosition: 0
+      m_randomizeStartDirectionX: 0
+      m_randomizeStartDirectionY: 0
+      m_randomizeStartDirectionZ: 0
+      m_minStartPosition: {x: 0, y: 0, z: 0}
+      m_maxStartPosition: {x: 0, y: 0, z: 0}
+      m_randomizeEndPosition: 1
+      m_randomizeEndDirectionX: 1
+      m_randomizeEndDirectionY: 1
+      m_randomizeEndDirectionZ: 0
+      m_minEndPosition: {x: 0.2, y: 0.2, z: -1}
+      m_maxEndPosition: {x: 0.2, y: 1, z: -2}
+      m_interpolatePosition: 1
+      m_positionCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_positionDuration: 1
+      m_lookAtBullet: 1
+      m_startLookSpeed: 2
+      m_endLookSpeed: 12
+      m_lookSpeedDuration: 3
+      m_interpolateLookSpeed: 1
+      m_lookSpeedCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_lookAtOffset: {x: 0, y: 0, z: 0.1}
+      m_interpolateZTilt: 0
+      m_startZTilt: 0
+      m_zTiltSpeed: 0
+      m_endZTilt: 0
+      m_zTiltDuration: 0
+      m_zTiltCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_shakeEnabled: 1
+      m_shakeAmount: {x: 0.5, y: 1, z: 2}
+      m_shakeSpeed: {x: 40, y: 80, z: 80}
+      m_shakeDuration: 15
+      m_foldout: 0
+    - m_name: End
+      m_enabled: 1
+      m_playAudio: 1
+      m_inClip: {fileID: 0}
+      m_outClip: {fileID: 8300000, guid: 96995d21020612e4497578ce2db4f7d6, type: 3}
+      m_triggerNextMethod: 0
+      m_triggerNextDuration: 0.1
+      m_triggerNextDistance: 0
+      m_triggerNextBulletPathPercent: 0
+      m_timescaleConnectedToHitDistance: 0
+      m_startTimescale: 0.2
+      m_endTimescale: 0
+      m_interpolateTimescale: 0
+      m_timescaleDuration: 0
+      m_timescaleCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_continueFromPrevious: 0
+      m_positionType: 0
+      m_pathPercent: 0.5
+      m_startPosition: {x: 0, y: 0, z: 0}
+      m_endPosition: {x: 0, y: 0, z: 0}
+      m_randomizeStartPosition: 1
+      m_randomizeStartDirectionX: 1
+      m_randomizeStartDirectionY: 0
+      m_randomizeStartDirectionZ: 0
+      m_minStartPosition: {x: 1, y: 1, z: -3}
+      m_maxStartPosition: {x: 3, y: 2, z: -5}
+      m_randomizeEndPosition: 1
+      m_randomizeEndDirectionX: 1
+      m_randomizeEndDirectionY: 0
+      m_randomizeEndDirectionZ: 0
+      m_minEndPosition: {x: 1, y: 1, z: -3}
+      m_maxEndPosition: {x: 3, y: 2, z: -5}
+      m_interpolatePosition: 1
+      m_positionCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_positionDuration: 4
+      m_lookAtBullet: 0
+      m_startLookSpeed: 10
+      m_endLookSpeed: 0
+      m_lookSpeedDuration: 0
+      m_interpolateLookSpeed: 0
+      m_lookSpeedCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_lookAtOffset: {x: 0, y: 0, z: 0}
+      m_interpolateZTilt: 0
+      m_startZTilt: 0
+      m_zTiltSpeed: 5
+      m_endZTilt: 0
+      m_zTiltDuration: 1
+      m_zTiltCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 2
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        - serializedVersion: 2
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 0
+      m_shakeEnabled: 1
+      m_shakeAmount: {x: 4, y: 4, z: 2}
+      m_shakeSpeed: {x: 2, y: 2, z: 4}
+      m_shakeDuration: 1
+      m_foldout: 0
+    m_foldout: 0
+    m_previousName: Watch Bullet Generic
+  m_collisionDetectionMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_dontCheckCollisionsInSameHierarchy: 1
+  m_negligibleCollisionDistance: 0.01
+  m_audioSource: {fileID: 82560644760880276}
