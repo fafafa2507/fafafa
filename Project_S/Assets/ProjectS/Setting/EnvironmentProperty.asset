@@ -17,8 +17,8 @@ MonoBehaviour:
   m_gravity: -9.81
   m_airPressure: 101.325
   m_temperature: 25
-  m_windSpeed: {x: 0, y: 0, z: 0}
+  m_windSpeed: {x: 500, y: 0, z: 0}
   m_gravityInMetric: -9.81
   m_airPressureInMetric: 101.325
   m_temperatureInMetric: 25
-  m_windSpeedInMetric: {x: 0, y: 0, z: 0}
+  m_windSpeedInMetric: {x: 500, y: 0, z: 0}

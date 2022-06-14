@@ -9,6 +9,9 @@ public class Shot : MonoBehaviour
 
     public ObjectPooler defaultHitPooler;
 
+    public Transform myBulletTimeObject;
+    public Transform mainCamera;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -32,7 +35,21 @@ public class Shot : MonoBehaviour
     {
         if (Input.GetKeyDown(KeyCode.Space))
         {
-            SniperAndBallisticsSystem.instance.FireBallisticsBullet(myBulletProperties);
+            SniperAndBallisticsSystem.instance.FireBallisticsBullet(myBulletProperties, mainCamera, myBulletTimeObject);
+        }
+
+        // Cycle zero up
+        if (Input.GetKeyDown(KeyCode.C))
+        {
+            SniperAndBallisticsSystem.instance.CycleZeroDistanceUp();
+            Debug.Log(SniperAndBallisticsSystem.instance.CurrentZeroDistance);
+        }
+
+        // Cycle zero down
+        if (Input.GetKeyDown(KeyCode.V))
+        {
+            SniperAndBallisticsSystem.instance.CycleZeroDistanceDown();
+            Debug.Log(SniperAndBallisticsSystem.instance.CurrentZeroDistance);
         }
     }
 

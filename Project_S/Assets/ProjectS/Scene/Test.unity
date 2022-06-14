@@ -219,6 +219,68 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &265478214
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 1395784161786972, guid: 739358a53d2b24f44afc6fd303b241cc, type: 3}
+      propertyPath: m_Name
+      value: Bullet Time - Bullet
+      objectReference: {fileID: 0}
+    - target: {fileID: 4910582882273888, guid: 739358a53d2b24f44afc6fd303b241cc, type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 4910582882273888, guid: 739358a53d2b24f44afc6fd303b241cc, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4910582882273888, guid: 739358a53d2b24f44afc6fd303b241cc, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4910582882273888, guid: 739358a53d2b24f44afc6fd303b241cc, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4910582882273888, guid: 739358a53d2b24f44afc6fd303b241cc, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4910582882273888, guid: 739358a53d2b24f44afc6fd303b241cc, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4910582882273888, guid: 739358a53d2b24f44afc6fd303b241cc, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4910582882273888, guid: 739358a53d2b24f44afc6fd303b241cc, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4910582882273888, guid: 739358a53d2b24f44afc6fd303b241cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4910582882273888, guid: 739358a53d2b24f44afc6fd303b241cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4910582882273888, guid: 739358a53d2b24f44afc6fd303b241cc, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 739358a53d2b24f44afc6fd303b241cc, type: 3}
+--- !u!4 &265478215 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 4910582882273888, guid: 739358a53d2b24f44afc6fd303b241cc, type: 3}
+  m_PrefabInstance: {fileID: 265478214}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &503214504
 GameObject:
   m_ObjectHideFlags: 0
@@ -265,6 +327,496 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1008711977
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1008711982}
+  - component: {fileID: 1008711981}
+  - component: {fileID: 1008711980}
+  - component: {fileID: 1008711979}
+  - component: {fileID: 1008711978}
+  m_Layer: 0
+  m_Name: Bullet Time
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &1008711978
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008711977}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &1008711979
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008711977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+--- !u!114 &1008711980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008711977}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc04eded0592d4145b34047310311721, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_randomizeEffects: 0
+  m_selectedEffect: 0
+  m_cameraEffects:
+  - m_name: Tutorial Effect
+    m_enabled: 1
+    m_startPathPercentage: 0
+    m_timeToResetTimescale: 1
+    m_timeToEndAfterReset: 1
+    m_stages:
+    - m_name: Beginning
+      m_enabled: 1
+      m_playAudio: 0
+      m_inClip: {fileID: 0}
+      m_outClip: {fileID: 0}
+      m_triggerNextMethod: 0
+      m_triggerNextDuration: 4
+      m_triggerNextDistance: 0
+      m_triggerNextBulletPathPercent: 0
+      m_timescaleConnectedToHitDistance: 0
+      m_startTimescale: 0.005
+      m_endTimescale: 0
+      m_interpolateTimescale: 0
+      m_timescaleDuration: 0
+      m_timescaleCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_continueFromPrevious: 0
+      m_positionType: 0
+      m_pathPercent: 0.5
+      m_startPosition: {x: 0.5, y: 0.15, z: 0.15}
+      m_endPosition: {x: -0.5, y: -0.15, z: 0.05}
+      m_randomizeStartPosition: 0
+      m_randomizeStartDirectionX: 0
+      m_randomizeStartDirectionY: 0
+      m_randomizeStartDirectionZ: 0
+      m_minStartPosition: {x: 0, y: 0, z: 0}
+      m_maxStartPosition: {x: 0, y: 0, z: 0}
+      m_randomizeEndPosition: 0
+      m_randomizeEndDirectionX: 0
+      m_randomizeEndDirectionY: 0
+      m_randomizeEndDirectionZ: 0
+      m_minEndPosition: {x: 0, y: 0, z: 0}
+      m_maxEndPosition: {x: 0, y: 0, z: 0}
+      m_interpolatePosition: 1
+      m_positionCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_positionDuration: 4
+      m_lookAtBullet: 1
+      m_startLookSpeed: 10
+      m_endLookSpeed: 0
+      m_lookSpeedDuration: 0
+      m_interpolateLookSpeed: 0
+      m_lookSpeedCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_lookAtOffset: {x: 0, y: 0, z: 0}
+      m_interpolateZTilt: 0
+      m_startZTilt: 0
+      m_zTiltSpeed: 0
+      m_endZTilt: 0
+      m_zTiltDuration: 0
+      m_zTiltCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_shakeEnabled: 0
+      m_shakeAmount: {x: 0, y: 0, z: 0}
+      m_shakeSpeed: {x: 0, y: 0, z: 0}
+      m_shakeDuration: 1
+      m_foldout: 0
+    - m_name: Middle
+      m_enabled: 1
+      m_playAudio: 0
+      m_inClip: {fileID: 0}
+      m_outClip: {fileID: 0}
+      m_triggerNextMethod: 5
+      m_triggerNextDuration: 0
+      m_triggerNextDistance: 0
+      m_triggerNextBulletPathPercent: 0.96
+      m_timescaleConnectedToHitDistance: 0
+      m_startTimescale: 0.09
+      m_endTimescale: 0
+      m_interpolateTimescale: 0
+      m_timescaleDuration: 0
+      m_timescaleCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_continueFromPrevious: 1
+      m_positionType: 0
+      m_pathPercent: 0.5
+      m_startPosition: {x: -0.5, y: -0.15, z: 0.05}
+      m_endPosition: {x: 0, y: 0.1, z: -0.2}
+      m_randomizeStartPosition: 0
+      m_randomizeStartDirectionX: 0
+      m_randomizeStartDirectionY: 0
+      m_randomizeStartDirectionZ: 0
+      m_minStartPosition: {x: 0, y: 0, z: 0}
+      m_maxStartPosition: {x: 0, y: 0, z: 0}
+      m_randomizeEndPosition: 0
+      m_randomizeEndDirectionX: 0
+      m_randomizeEndDirectionY: 0
+      m_randomizeEndDirectionZ: 0
+      m_minEndPosition: {x: 0, y: 0, z: 0}
+      m_maxEndPosition: {x: 0, y: 0, z: 0}
+      m_interpolatePosition: 1
+      m_positionCurve:
+        serializedVersion: 2
+        m_Curve:
+        - serializedVersion: 3
+          time: 0
+          value: 0
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        - serializedVersion: 3
+          time: 1
+          value: 1
+          inSlope: 1
+          outSlope: 1
+          tangentMode: 34
+          weightedMode: 0
+          inWeight: 0
+          outWeight: 0
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_positionDuration: 1
+      m_lookAtBullet: 1
+      m_startLookSpeed: 10
+      m_endLookSpeed: 0
+      m_lookSpeedDuration: 0
+      m_interpolateLookSpeed: 0
+      m_lookSpeedCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_lookAtOffset: {x: 0, y: 0, z: 0}
+      m_interpolateZTilt: 0
+      m_startZTilt: 0
+      m_zTiltSpeed: 0
+      m_endZTilt: 0
+      m_zTiltDuration: 0
+      m_zTiltCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_shakeEnabled: 0
+      m_shakeAmount: {x: 0, y: 0, z: 0}
+      m_shakeSpeed: {x: 0, y: 0, z: 0}
+      m_shakeDuration: 1
+      m_foldout: 0
+    - m_name: End
+      m_enabled: 1
+      m_playAudio: 0
+      m_inClip: {fileID: 0}
+      m_outClip: {fileID: 0}
+      m_triggerNextMethod: 0
+      m_triggerNextDuration: 0
+      m_triggerNextDistance: 0
+      m_triggerNextBulletPathPercent: 0
+      m_timescaleConnectedToHitDistance: 0
+      m_startTimescale: 0.005
+      m_endTimescale: 0
+      m_interpolateTimescale: 0
+      m_timescaleDuration: 0
+      m_timescaleCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_continueFromPrevious: 0
+      m_positionType: 1
+      m_pathPercent: 0.5
+      m_startPosition: {x: 4, y: 0.5, z: -5}
+      m_endPosition: {x: 0, y: 0, z: 0}
+      m_randomizeStartPosition: 0
+      m_randomizeStartDirectionX: 0
+      m_randomizeStartDirectionY: 0
+      m_randomizeStartDirectionZ: 0
+      m_minStartPosition: {x: 0, y: 0, z: 0}
+      m_maxStartPosition: {x: 0, y: 0, z: 0}
+      m_randomizeEndPosition: 0
+      m_randomizeEndDirectionX: 0
+      m_randomizeEndDirectionY: 0
+      m_randomizeEndDirectionZ: 0
+      m_minEndPosition: {x: 0, y: 0, z: 0}
+      m_maxEndPosition: {x: 0, y: 0, z: 0}
+      m_interpolatePosition: 0
+      m_positionCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_positionDuration: 0
+      m_lookAtBullet: 1
+      m_startLookSpeed: 10
+      m_endLookSpeed: 0
+      m_lookSpeedDuration: 0
+      m_interpolateLookSpeed: 0
+      m_lookSpeedCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_lookAtOffset: {x: 0, y: 0, z: 0}
+      m_interpolateZTilt: 0
+      m_startZTilt: 0
+      m_zTiltSpeed: 0
+      m_endZTilt: 0
+      m_zTiltDuration: 0
+      m_zTiltCurve:
+        serializedVersion: 2
+        m_Curve: []
+        m_PreInfinity: 2
+        m_PostInfinity: 2
+        m_RotationOrder: 4
+      m_shakeEnabled: 0
+      m_shakeAmount: {x: 0, y: 0, z: 0}
+      m_shakeSpeed: {x: 0, y: 0, z: 0}
+      m_shakeDuration: 1
+      m_foldout: 1
+    m_foldout: 1
+    m_previousName: Tutorial Effect
+  m_collisionDetectionMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_dontCheckCollisionsInSameHierarchy: 0
+  m_negligibleCollisionDistance: 0.1
+  m_audioSource: {fileID: 1008711978}
+--- !u!20 &1008711981
+Camera:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008711977}
+  m_Enabled: 0
+  serializedVersion: 2
+  m_ClearFlags: 1
+  m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
+  m_projectionMatrixMode: 1
+  m_GateFitMode: 2
+  m_FOVAxisMode: 0
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_FocalLength: 50
+  m_NormalizedViewPortRect:
+    serializedVersion: 2
+    x: 0
+    y: 0
+    width: 1
+    height: 1
+  near clip plane: 0.01
+  far clip plane: 1000
+  field of view: 60
+  orthographic: 0
+  orthographic size: 5
+  m_Depth: 0
+  m_CullingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_RenderingPath: -1
+  m_TargetTexture: {fileID: 0}
+  m_TargetDisplay: 0
+  m_TargetEye: 3
+  m_HDR: 1
+  m_AllowMSAA: 1
+  m_AllowDynamicResolution: 0
+  m_ForceIntoRT: 0
+  m_OcclusionCulling: 1
+  m_StereoConvergence: 10
+  m_StereoSeparation: 0.022
+--- !u!4 &1008711982
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1008711977}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1154241703
 GameObject:
@@ -568,7 +1120,7 @@ MonoBehaviour:
     m_Bits: 4294967295
   m_environmentProperties: {fileID: 11400000, guid: 6e7c213dc584050459049f1f5473a988, type: 2}
   m_fireTransform: {fileID: 1373644623}
-  m_bulletTimeEnabled: 0
+  m_bulletTimeEnabled: 1
   m_btChance: 1
   m_btMinDistance: 90
   m_tracersEnabled: 1
@@ -607,6 +1159,7 @@ GameObject:
   - component: {fileID: 1687625234}
   - component: {fileID: 1687625233}
   - component: {fileID: 1687625232}
+  - component: {fileID: 1687625236}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -684,12 +1237,24 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1687625231}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2, z: 10}
-  m_LocalScale: {x: 5, y: 6, z: 2}
+  m_LocalPosition: {x: 0, y: 0, z: 100}
+  m_LocalScale: {x: 5, y: 6, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1687625236
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1687625231}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a1d3a0497d010f9468823fbeca9b3fa7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1695456340
 GameObject:
   m_ObjectHideFlags: 0
@@ -735,3 +1300,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   myBulletProperties: {fileID: 11400000, guid: ae4c2c3ca8254a5438c31acf9189572e, type: 2}
   defaultHitPooler: {fileID: 1377368297}
+  myBulletTimeObject: {fileID: 265478215}
+  mainCamera: {fileID: 1373644623}

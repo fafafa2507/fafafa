@@ -32,8 +32,8 @@ MonoBehaviour:
   m_diameterInMetric: 8.61
   m_lengthInMetric: 24.3
   m_barrelTwistInMetric: 254
-  m_zeroCalculated: 0
-  m_ballisticSimulationFoldout: 1
+  m_zeroCalculated: 1
+  m_ballisticSimulationFoldout: 0
   m_horizontalRange: 500
   m_verticalRange: 100
   m_shootingAngle: 0
