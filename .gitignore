@@ -10,3 +10,5 @@ Project_S/Assets/ModularCityAlleyPack/HDRP/ModularCityAlleyPack_HDRP.unitypackag
 Project_S/Assets/ModularCityAlleyPack/URP/ModularCityAlleyPack_URP.unitypackage
 Project_S/Assets/ModularCityAlleyPack/URP/ModularCityAlleyPack_URP.unitypackage.meta
 *.csproj
+Project_S/.vs
+Project_S/obj
