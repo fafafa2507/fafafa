@@ -5,17 +5,17 @@ using IE.RSB;
 
 public class Shot : MonoBehaviour
 {
-    public BulletProperties myBulletProperties;
+    //public BulletProperties myBulletProperties;
 
     public ObjectPooler defaultHitPooler;
 
-    public Transform myBulletTimeObject;
-    public Transform mainCamera;
+    //public Transform myBulletTimeObject;
+    //public Transform mainCamera;
 
     // Start is called before the first frame update
     void Start()
     {
-        SniperAndBallisticsSystem.instance.ActivateBullet(myBulletProperties);
+        //SniperAndBallisticsSystem.instance.ActivateBullet(myBulletProperties);
     }
 
 
@@ -33,7 +33,8 @@ public class Shot : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Space))
+        /*
+        if (Input.GetMouseButtonDown(0))
         {
             SniperAndBallisticsSystem.instance.FireBallisticsBullet(myBulletProperties, mainCamera, myBulletTimeObject);
         }
@@ -51,6 +52,19 @@ public class Shot : MonoBehaviour
             SniperAndBallisticsSystem.instance.CycleZeroDistanceDown();
             Debug.Log(SniperAndBallisticsSystem.instance.CurrentZeroDistance);
         }
+
+
+        if (Input.GetMouseButtonDown(1))
+        {
+            DynamicScopeSystem.instance.ScopeActivation(true, myBulletProperties);
+        }
+
+        // Disable scope
+        if (Input.GetMouseButtonUp(1))
+        {
+            DynamicScopeSystem.instance.ScopeActivation(false, myBulletProperties);
+        }
+        */
     }
 
     private void OnAnyHit(BulletPoint point)
