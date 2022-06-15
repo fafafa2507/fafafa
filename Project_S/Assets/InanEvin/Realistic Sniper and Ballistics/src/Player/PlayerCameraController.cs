@@ -30,6 +30,7 @@ namespace IE.RSB
 
         [Header("Control Settings")]
         [SerializeField] [MinMaxSlider(-90, 90)] private Vector2 yLimits = new Vector2(-80.0f, 80.0f);
+        [SerializeField] [MinMaxSlider(-180, 180)] private Vector2 xLimits = new Vector2(-120.0f, 120.0f);
 
         // Private class members.
         private float m_refX = 0.0f;
@@ -86,8 +87,11 @@ namespace IE.RSB
             // Smooth & clamp
             m_smoothedX = Mathf.SmoothDamp(m_smoothedX, m_inputs.x, ref m_refX, m_smooth.x);
             m_smoothedY = Mathf.SmoothDamp(m_smoothedY, m_inputs.y, ref m_refY, m_smooth.y);
+
+            m_inputs.x = Mathf.Clamp(m_inputs.x, xLimits.x, xLimits.y);
             m_inputs.y = Mathf.Clamp(m_inputs.y, yLimits.x, yLimits.y);
 
+            
             // Apply rotation.
             Quaternion q_X = Quaternion.AngleAxis(m_smoothedX, Vector3.up);
             Quaternion q_Y = Quaternion.AngleAxis(m_smoothedY, Vector3.right);

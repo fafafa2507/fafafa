@@ -436,6 +436,17 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4910582882273888, guid: 739358a53d2b24f44afc6fd303b241cc, type: 3}
   m_PrefabInstance: {fileID: 265478214}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &398003184 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114931911082475886, guid: 6bf862adc07f4684bb888298eb327a09, type: 3}
+  m_PrefabInstance: {fileID: 1137789066}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65195ab7ae737a4e88370987607cac9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &503214504
 GameObject:
   m_ObjectHideFlags: 0
@@ -494,6 +505,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: CANVAS - Mobile Controls
       objectReference: {fileID: 0}
+    - target: {fileID: 114053443319051654, guid: 6d2d67b907a7d784ba2af599b48aa3b9, type: 3}
+      propertyPath: m_weaponController
+      value: 
+      objectReference: {fileID: 398003184}
+    - target: {fileID: 114053443319051654, guid: 6d2d67b907a7d784ba2af599b48aa3b9, type: 3}
+      propertyPath: m_dynamicScopeSystem
+      value: 
+      objectReference: {fileID: 837061092}
     - target: {fileID: 224611712345920714, guid: 6d2d67b907a7d784ba2af599b48aa3b9, type: 3}
       propertyPath: m_Pivot.x
       value: 0
@@ -693,6 +712,17 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &837061092 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 114614477099544912, guid: 69b08976c1e2d10479102ec0d736c261, type: 3}
+  m_PrefabInstance: {fileID: 1491748108}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1c92dcc0663d3c8408a6eb0be362e0a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1008711977
 GameObject:
   m_ObjectHideFlags: 0
@@ -1332,6 +1362,14 @@ PrefabInstance:
     - target: {fileID: 4322000907394306, guid: 6bf862adc07f4684bb888298eb327a09, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 114694709427221440, guid: 6bf862adc07f4684bb888298eb327a09, type: 3}
+      propertyPath: xLimits.x
+      value: -45
+      objectReference: {fileID: 0}
+    - target: {fileID: 114694709427221440, guid: 6bf862adc07f4684bb888298eb327a09, type: 3}
+      propertyPath: xLimits.y
+      value: 45
       objectReference: {fileID: 0}
     - target: {fileID: 114931911082475886, guid: 6bf862adc07f4684bb888298eb327a09, type: 3}
       propertyPath: m_ammoText
